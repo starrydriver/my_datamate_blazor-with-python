@@ -1,0 +1,55 @@
+﻿@page "/my_cloud"
+@inject IHttpClientFactory HttpClientFactory
+<div style="margin: 20px;">
+    <div style="border-radius: 10px; background-color: white; border: 5px solid #8058ff; padding: 20px;">
+        <br>
+        <br>
+        <textarea placeholder="请输入文本..."
+                  cols="100"
+                  rows="10"
+                  style="resize: none; border: none; width: 100%; border-radius: 5px; padding: 10px;"
+                  @bind="Value">
+        </textarea>
+    </div>
+    <div style="rectangle;
+                position:relative;
+                top: -384px;
+                border-radius: 10px;
+                width: 20%;
+                height: 60px;
+                background-color:
+                #8058ff; color:
+                white; padding: 10px;
+                margin-top: 20px;">
+        <h2 style="position: relative; left: 50px;color: #F5F5DC;">输入框</h2>
+    </div>
+</div>
+<Button OnClick="GetCloudImage">开始生成</Button>
+@if (!string.IsNullOrEmpty(CloudimageUrl))
+{
+    <img src="@CloudimageUrl" style="width: 100%; height: 500px; object-fit;">
+}
+
+@code {
+    private string Value { get; set; }
+    private string CloudimageUrl { get; set; }
+    private int requestCounter = 0;
+    private async Task GetCloudImage()
+    {
+        CloudimageUrl = string.Empty;
+        var client = HttpClientFactory.CreateClient("app");
+        var response = await client.PostAsJsonAsync("/api/cloudimage", new { text = Value });
+        if (response.IsSuccessStatusCode)
+        {
+            requestCounter++; // 每次请求时增加计数器
+            CloudimageUrl= $"my_cloud.png?counter={requestCounter}"; // 使用计数器作为参数
+            System.Console.WriteLine(CloudimageUrl);// 处理成功情况
+        }
+        else
+        {
+            // 处理错误情况
+            CloudimageUrl   = "";
+        }
+        StateHasChanged();
+    }
+}

@@ -1,0 +1,2997 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "BootstrapBlazor/9.1.5": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Authorization": "8.0.11",
+          "Microsoft.AspNetCore.Components.Web": "8.0.11",
+          "Microsoft.Extensions.Caching.Memory": "8.0.1",
+          "Microsoft.Extensions.Configuration.Json": "8.0.1",
+          "Microsoft.Extensions.Http": "8.0.1",
+          "Microsoft.Extensions.Localization": "8.0.11"
+        },
+        "compile": {
+          "lib/net8.0/BootstrapBlazor.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/BootstrapBlazor.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/BootstrapBlazor.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/BootstrapBlazor.props": {}
+        }
+      },
+      "BootstrapBlazor.PdfReader/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "BootstrapBlazor": "9.0.0",
+          "UAParser": "3.1.47"
+        },
+        "compile": {
+          "lib/net8.0/BootstrapBlazor.PdfReader.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/BootstrapBlazor.PdfReader.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/BootstrapBlazor.PdfReader.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/BootstrapBlazor.PdfReader.props": {}
+        }
+      },
+      "Microsoft.AspNetCore.Authorization/8.0.11": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Metadata": "8.0.11",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Options": "8.0.2"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.AspNetCore.Authorization.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.AspNetCore.Authorization.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Components/8.0.11": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Authorization": "8.0.11",
+          "Microsoft.AspNetCore.Components.Analyzers": "8.0.11"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.AspNetCore.Components.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.AspNetCore.Components.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Components.Analyzers/8.0.11": {
+        "type": "package",
+        "build": {
+          "buildTransitive/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets": {}
+        }
+      },
+      "Microsoft.AspNetCore.Components.Authorization/8.0.11": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Authorization": "8.0.11",
+          "Microsoft.AspNetCore.Components": "8.0.11"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.AspNetCore.Components.Authorization.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.AspNetCore.Components.Authorization.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Components.Forms/8.0.11": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "8.0.11"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.AspNetCore.Components.Forms.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.AspNetCore.Components.Forms.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Components.Web/8.0.11": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "8.0.11",
+          "Microsoft.AspNetCore.Components.Forms": "8.0.11",
+          "Microsoft.Extensions.DependencyInjection": "8.0.1",
+          "Microsoft.Extensions.Primitives": "8.0.0",
+          "Microsoft.JSInterop": "8.0.11",
+          "System.IO.Pipelines": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.AspNetCore.Components.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.AspNetCore.Components.Web.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Components.WebAssembly/8.0.11": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "8.0.11",
+          "Microsoft.Extensions.Configuration.Binder": "8.0.2",
+          "Microsoft.Extensions.Configuration.Json": "8.0.1",
+          "Microsoft.Extensions.Logging": "8.0.1",
+          "Microsoft.JSInterop.WebAssembly": "8.0.11"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.AspNetCore.Components.WebAssembly.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.AspNetCore.Components.WebAssembly.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/net8.0/Microsoft.AspNetCore.Components.WebAssembly.props": {}
+        }
+      },
+      "Microsoft.AspNetCore.Metadata/8.0.11": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Microsoft.AspNetCore.Metadata.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.AspNetCore.Metadata.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.Caching.Abstractions/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Caching.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Caching.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.Caching.Memory/8.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Caching.Abstractions": "8.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Options": "8.0.2",
+          "Microsoft.Extensions.Primitives": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Caching.Memory.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Caching.Memory.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Primitives": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.Binder/8.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.Binder.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.Binder.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.0/Microsoft.Extensions.Configuration.Binder.targets": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.FileExtensions/8.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "8.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
+          "Microsoft.Extensions.FileProviders.Abstractions": "8.0.0",
+          "Microsoft.Extensions.FileProviders.Physical": "8.0.0",
+          "Microsoft.Extensions.Primitives": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.FileExtensions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.FileExtensions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.Json/8.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "8.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Configuration.FileExtensions": "8.0.1",
+          "Microsoft.Extensions.FileProviders.Abstractions": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/8.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.Diagnostics/8.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "8.0.0",
+          "Microsoft.Extensions.Diagnostics.Abstractions": "8.0.1",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Diagnostics.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Diagnostics.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.Diagnostics.Abstractions/8.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Options": "8.0.2"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Diagnostics.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Diagnostics.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Abstractions/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Physical/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Abstractions": "8.0.0",
+          "Microsoft.Extensions.FileSystemGlobbing": "8.0.0",
+          "Microsoft.Extensions.Primitives": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.FileProviders.Physical.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.FileProviders.Physical.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.FileSystemGlobbing/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.FileSystemGlobbing.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.FileSystemGlobbing.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.Http/8.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Diagnostics": "8.0.1",
+          "Microsoft.Extensions.Logging": "8.0.1",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Options": "8.0.2"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.Localization/8.0.11": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Localization.Abstractions": "8.0.11",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Options": "8.0.2"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Localization.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Localization.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.Localization.Abstractions/8.0.11": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Localization.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Localization.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging/8.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "8.0.1",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Options": "8.0.2"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Logging.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Logging.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/8.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/Microsoft.Extensions.Logging.Abstractions.targets": {}
+        }
+      },
+      "Microsoft.Extensions.Options/8.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Primitives": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Options.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Options.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/Microsoft.Extensions.Options.targets": {}
+        }
+      },
+      "Microsoft.Extensions.Options.ConfigurationExtensions/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Configuration.Binder": "8.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Options": "8.0.0",
+          "Microsoft.Extensions.Primitives": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.Primitives/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Primitives.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Primitives.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Microsoft.JSInterop/8.0.11": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Microsoft.JSInterop.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.JSInterop.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.JSInterop.WebAssembly/8.0.11": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.JSInterop": "8.0.11"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.JSInterop.WebAssembly.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.JSInterop.WebAssembly.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "SixLabors.ImageSharp/3.1.6": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/SixLabors.ImageSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/SixLabors.ImageSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/SixLabors.ImageSharp.props": {}
+        }
+      },
+      "System.IO.Pipelines/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "UAParser/3.1.47": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp2.0/UAParser.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/UAParser.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BootstrapBlazor/9.1.5": {
+      "sha512": "ddhmRjJbGp0ObtXWcIBSGJ9HRHTkMnQ0gm4vuu98oYRsxdsLyXFeZBU+eI6uv9YZk8EXSNpxjd//K58CTYk6kw==",
+      "type": "package",
+      "path": "bootstrapblazor/9.1.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "bootstrapblazor.9.1.5.nupkg.sha512",
+        "bootstrapblazor.nuspec",
+        "build/BootstrapBlazor.props",
+        "build/Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "buildMultiTargeting/BootstrapBlazor.props",
+        "buildTransitive/BootstrapBlazor.props",
+        "lib/net6.0/BootstrapBlazor.dll",
+        "lib/net6.0/BootstrapBlazor.xml",
+        "lib/net7.0/BootstrapBlazor.dll",
+        "lib/net7.0/BootstrapBlazor.xml",
+        "lib/net8.0/BootstrapBlazor.dll",
+        "lib/net8.0/BootstrapBlazor.xml",
+        "lib/net9.0/BootstrapBlazor.dll",
+        "lib/net9.0/BootstrapBlazor.xml",
+        "logo.png",
+        "readme.md",
+        "staticwebassets/Components/Anchor/Anchor.razor.js",
+        "staticwebassets/Components/AnchorLink/AnchorLink.razor.js",
+        "staticwebassets/Components/AutoComplete/AutoComplete.razor.js",
+        "staticwebassets/Components/Button/Button.razor.js",
+        "staticwebassets/Components/Button/DialButton.razor.js",
+        "staticwebassets/Components/Button/PopConfirmButton.razor.js",
+        "staticwebassets/Components/Button/PopConfirmButtonContent.razor.js",
+        "staticwebassets/Components/Button/SlideButton.razor.js",
+        "staticwebassets/Components/Camera/Camera.razor.js",
+        "staticwebassets/Components/Captcha/Captcha.razor.js",
+        "staticwebassets/Components/Card/Card.razor.js",
+        "staticwebassets/Components/Carousel/Carousel.razor.js",
+        "staticwebassets/Components/Checkbox/Checkbox.razor.js",
+        "staticwebassets/Components/ClockPicker/ClockPicker.razor.js",
+        "staticwebassets/Components/ColorPicker/ColorPicker.razor.js",
+        "staticwebassets/Components/Console/Console.razor.js",
+        "staticwebassets/Components/ContextMenu/ContextMenu.razor.js",
+        "staticwebassets/Components/CountUp/CountUp.razor.js",
+        "staticwebassets/Components/DateTimePicker/DateTimePicker.razor.js",
+        "staticwebassets/Components/Dialog/EditDialog.razor.js",
+        "staticwebassets/Components/Dialog/IconDialog.razor.js",
+        "staticwebassets/Components/Drawer/Drawer.razor.js",
+        "staticwebassets/Components/Dropdown/Dropdown.razor.js",
+        "staticwebassets/Components/DropdownWidget/DropdownWidget.razor.js",
+        "staticwebassets/Components/Filters/MultiFilter.razor.js",
+        "staticwebassets/Components/Filters/TableFilter.razor.js",
+        "staticwebassets/Components/FlipClock/FlipClock.razor.js",
+        "staticwebassets/Components/GoTop/GoTop.razor.js",
+        "staticwebassets/Components/Handwritten/Handwritten.razor.js",
+        "staticwebassets/Components/IFrame/IFrame.razor.js",
+        "staticwebassets/Components/ImagePreviewer/ImagePreviewer.razor.js",
+        "staticwebassets/Components/ImageViewer/ImageViewer.razor.js",
+        "staticwebassets/Components/Input/BootstrapInput.razor.js",
+        "staticwebassets/Components/IntersectionObserver/IntersectionObserver.razor.js",
+        "staticwebassets/Components/IpAddress/IpAddress.razor.js",
+        "staticwebassets/Components/Layout/Layout.razor.js",
+        "staticwebassets/Components/Mask/Mask.razor.js",
+        "staticwebassets/Components/Menu/Menu.razor.js",
+        "staticwebassets/Components/Message/Message.razor.js",
+        "staticwebassets/Components/Modal/Modal.razor.js",
+        "staticwebassets/Components/Modal/ModalDialog.razor.js",
+        "staticwebassets/Components/Popover/Popover.razor.js",
+        "staticwebassets/Components/Print/PrintButton.razor.js",
+        "staticwebassets/Components/Reconnector/ReconnectorContent.razor.js",
+        "staticwebassets/Components/RibbonTab/RibbonTab.razor.js",
+        "staticwebassets/Components/Row/Row.razor.js",
+        "staticwebassets/Components/Segmented/Segmented.razor.js",
+        "staticwebassets/Components/Select/MultiSelect.razor.js",
+        "staticwebassets/Components/Select/Select.razor.js",
+        "staticwebassets/Components/Select/SelectObject.razor.js",
+        "staticwebassets/Components/Select/SelectTable.razor.js",
+        "staticwebassets/Components/Select/SelectTree.razor.js",
+        "staticwebassets/Components/Split/Split.razor.js",
+        "staticwebassets/Components/Tab/Tab.razor.js",
+        "staticwebassets/Components/Table/Table.razor.js",
+        "staticwebassets/Components/Textarea/Textarea.razor.js",
+        "staticwebassets/Components/ThemeProvider/ThemeProvider.razor.js",
+        "staticwebassets/Components/TimePicker/TimePickerCell.razor.js",
+        "staticwebassets/Components/Toast/Toast.razor.js",
+        "staticwebassets/Components/Tooltip/Tooltip.razor.js",
+        "staticwebassets/Components/Transition/Transition.razor.js",
+        "staticwebassets/Components/TreeView/TreeView.razor.js",
+        "staticwebassets/Components/ValidateForm/ValidateForm.razor.js",
+        "staticwebassets/Components/Waterfall/Waterfall.razor.js",
+        "staticwebassets/css/animate.min.css",
+        "staticwebassets/css/bootstrap.blazor.bundle.min.css",
+        "staticwebassets/css/bootstrap.blazor.bundle.rtl.min.css",
+        "staticwebassets/css/bootstrap.min.css",
+        "staticwebassets/css/bootstrap.rtl.min.css",
+        "staticwebassets/css/bootstrapblazor.min.css",
+        "staticwebassets/css/motronic.min.css",
+        "staticwebassets/css/nano.min.css",
+        "staticwebassets/css/rtl.css",
+        "staticwebassets/css/sweetalert2.css",
+        "staticwebassets/js/bootstrap.blazor.bundle.min.js",
+        "staticwebassets/lib/countUp/countUp.min.js",
+        "staticwebassets/lib/floating-ui/floating-ui.core.esm.js",
+        "staticwebassets/lib/floating-ui/floating-ui.dom.esm.js",
+        "staticwebassets/lib/pickr/pickr.es5.min.js",
+        "staticwebassets/modules/ajax.js",
+        "staticwebassets/modules/autoredirect.js",
+        "staticwebassets/modules/base-popover.js",
+        "staticwebassets/modules/browser.js",
+        "staticwebassets/modules/bt.js",
+        "staticwebassets/modules/client.js",
+        "staticwebassets/modules/data.js",
+        "staticwebassets/modules/debounce.js",
+        "staticwebassets/modules/download.js",
+        "staticwebassets/modules/drag.js",
+        "staticwebassets/modules/event-handler.js",
+        "staticwebassets/modules/eye-dropper.js",
+        "staticwebassets/modules/floating-ui.js",
+        "staticwebassets/modules/fullscreen.js",
+        "staticwebassets/modules/geo.js",
+        "staticwebassets/modules/hub.js",
+        "staticwebassets/modules/input.js",
+        "staticwebassets/modules/noti.js",
+        "staticwebassets/modules/recognition.js",
+        "staticwebassets/modules/responsive.js",
+        "staticwebassets/modules/serial.js",
+        "staticwebassets/modules/synthesis.js",
+        "staticwebassets/modules/upload.js",
+        "staticwebassets/modules/utility.js",
+        "staticwebassets/modules/validate.js",
+        "staticwebassets/modules/viewer.js"
+      ]
+    },
+    "BootstrapBlazor.PdfReader/9.0.0": {
+      "sha512": "oHElE7h0v2rFz2FFugOBxCnr6oeGl7/aevNFI7qoYPnK/WvRmvWHzTGopMV9LfBRV/rbQxGPEOwNYZBNljI7ww==",
+      "type": "package",
+      "path": "bootstrapblazor.pdfreader/9.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "bootstrapblazor.pdfreader.9.0.0.nupkg.sha512",
+        "bootstrapblazor.pdfreader.nuspec",
+        "build/BootstrapBlazor.PdfReader.props",
+        "build/Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "buildMultiTargeting/BootstrapBlazor.PdfReader.props",
+        "buildTransitive/BootstrapBlazor.PdfReader.props",
+        "lib/net6.0/BootstrapBlazor.PdfReader.dll",
+        "lib/net6.0/BootstrapBlazor.PdfReader.xml",
+        "lib/net7.0/BootstrapBlazor.PdfReader.dll",
+        "lib/net7.0/BootstrapBlazor.PdfReader.xml",
+        "lib/net8.0/BootstrapBlazor.PdfReader.dll",
+        "lib/net8.0/BootstrapBlazor.PdfReader.xml",
+        "lib/net9.0/BootstrapBlazor.PdfReader.dll",
+        "lib/net9.0/BootstrapBlazor.PdfReader.xml",
+        "logo.png",
+        "readme.md",
+        "staticwebassets/2.6.347/LICENSE",
+        "staticwebassets/2.6.347/build/pdf.js",
+        "staticwebassets/2.6.347/build/pdf.worker.js",
+        "staticwebassets/2.6.347/web/cmaps/78-EUC-H.txt",
+        "staticwebassets/2.6.347/web/cmaps/78-EUC-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/78-H.txt",
+        "staticwebassets/2.6.347/web/cmaps/78-RKSJ-H.txt",
+        "staticwebassets/2.6.347/web/cmaps/78-RKSJ-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/78-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/78ms-RKSJ-H.txt",
+        "staticwebassets/2.6.347/web/cmaps/78ms-RKSJ-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/83pv-RKSJ-H.txt",
+        "staticwebassets/2.6.347/web/cmaps/90ms-RKSJ-H.txt",
+        "staticwebassets/2.6.347/web/cmaps/90ms-RKSJ-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/90msp-RKSJ-H.txt",
+        "staticwebassets/2.6.347/web/cmaps/90msp-RKSJ-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/90pv-RKSJ-H.txt",
+        "staticwebassets/2.6.347/web/cmaps/90pv-RKSJ-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/Add-H.txt",
+        "staticwebassets/2.6.347/web/cmaps/Add-RKSJ-H.txt",
+        "staticwebassets/2.6.347/web/cmaps/Add-RKSJ-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/Add-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/Adobe-CNS1-0.txt",
+        "staticwebassets/2.6.347/web/cmaps/Adobe-CNS1-1.txt",
+        "staticwebassets/2.6.347/web/cmaps/Adobe-CNS1-2.txt",
+        "staticwebassets/2.6.347/web/cmaps/Adobe-CNS1-3.txt",
+        "staticwebassets/2.6.347/web/cmaps/Adobe-CNS1-4.txt",
+        "staticwebassets/2.6.347/web/cmaps/Adobe-CNS1-5.txt",
+        "staticwebassets/2.6.347/web/cmaps/Adobe-CNS1-6.txt",
+        "staticwebassets/2.6.347/web/cmaps/Adobe-CNS1-UCS2.txt",
+        "staticwebassets/2.6.347/web/cmaps/Adobe-GB1-0.txt",
+        "staticwebassets/2.6.347/web/cmaps/Adobe-GB1-1.txt",
+        "staticwebassets/2.6.347/web/cmaps/Adobe-GB1-2.txt",
+        "staticwebassets/2.6.347/web/cmaps/Adobe-GB1-3.txt",
+        "staticwebassets/2.6.347/web/cmaps/Adobe-GB1-4.txt",
+        "staticwebassets/2.6.347/web/cmaps/Adobe-GB1-5.txt",
+        "staticwebassets/2.6.347/web/cmaps/Adobe-GB1-UCS2.txt",
+        "staticwebassets/2.6.347/web/cmaps/Adobe-Japan1-0.txt",
+        "staticwebassets/2.6.347/web/cmaps/Adobe-Japan1-1.txt",
+        "staticwebassets/2.6.347/web/cmaps/Adobe-Japan1-2.txt",
+        "staticwebassets/2.6.347/web/cmaps/Adobe-Japan1-3.txt",
+        "staticwebassets/2.6.347/web/cmaps/Adobe-Japan1-4.txt",
+        "staticwebassets/2.6.347/web/cmaps/Adobe-Japan1-5.txt",
+        "staticwebassets/2.6.347/web/cmaps/Adobe-Japan1-6.txt",
+        "staticwebassets/2.6.347/web/cmaps/Adobe-Japan1-UCS2.txt",
+        "staticwebassets/2.6.347/web/cmaps/Adobe-Korea1-0.txt",
+        "staticwebassets/2.6.347/web/cmaps/Adobe-Korea1-1.txt",
+        "staticwebassets/2.6.347/web/cmaps/Adobe-Korea1-2.txt",
+        "staticwebassets/2.6.347/web/cmaps/Adobe-Korea1-UCS2.txt",
+        "staticwebassets/2.6.347/web/cmaps/B5-H.txt",
+        "staticwebassets/2.6.347/web/cmaps/B5-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/B5pc-H.txt",
+        "staticwebassets/2.6.347/web/cmaps/B5pc-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/CNS-EUC-H.txt",
+        "staticwebassets/2.6.347/web/cmaps/CNS-EUC-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/CNS1-H.txt",
+        "staticwebassets/2.6.347/web/cmaps/CNS1-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/CNS2-H.txt",
+        "staticwebassets/2.6.347/web/cmaps/CNS2-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/ETHK-B5-H.txt",
+        "staticwebassets/2.6.347/web/cmaps/ETHK-B5-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/ETen-B5-H.txt",
+        "staticwebassets/2.6.347/web/cmaps/ETen-B5-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/ETenms-B5-H.txt",
+        "staticwebassets/2.6.347/web/cmaps/ETenms-B5-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/EUC-H.txt",
+        "staticwebassets/2.6.347/web/cmaps/EUC-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/Ext-H.txt",
+        "staticwebassets/2.6.347/web/cmaps/Ext-RKSJ-H.txt",
+        "staticwebassets/2.6.347/web/cmaps/Ext-RKSJ-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/Ext-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/GB-EUC-H.txt",
+        "staticwebassets/2.6.347/web/cmaps/GB-EUC-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/GB-H.txt",
+        "staticwebassets/2.6.347/web/cmaps/GB-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/GBK-EUC-H.txt",
+        "staticwebassets/2.6.347/web/cmaps/GBK-EUC-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/GBK2K-H.txt",
+        "staticwebassets/2.6.347/web/cmaps/GBK2K-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/GBKp-EUC-H.txt",
+        "staticwebassets/2.6.347/web/cmaps/GBKp-EUC-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/GBT-EUC-H.txt",
+        "staticwebassets/2.6.347/web/cmaps/GBT-EUC-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/GBT-H.txt",
+        "staticwebassets/2.6.347/web/cmaps/GBT-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/GBTpc-EUC-H.txt",
+        "staticwebassets/2.6.347/web/cmaps/GBTpc-EUC-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/GBpc-EUC-H.txt",
+        "staticwebassets/2.6.347/web/cmaps/GBpc-EUC-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/H.txt",
+        "staticwebassets/2.6.347/web/cmaps/HKdla-B5-H.txt",
+        "staticwebassets/2.6.347/web/cmaps/HKdla-B5-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/HKdlb-B5-H.txt",
+        "staticwebassets/2.6.347/web/cmaps/HKdlb-B5-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/HKgccs-B5-H.txt",
+        "staticwebassets/2.6.347/web/cmaps/HKgccs-B5-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/HKm314-B5-H.txt",
+        "staticwebassets/2.6.347/web/cmaps/HKm314-B5-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/HKm471-B5-H.txt",
+        "staticwebassets/2.6.347/web/cmaps/HKm471-B5-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/HKscs-B5-H.txt",
+        "staticwebassets/2.6.347/web/cmaps/HKscs-B5-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/Hankaku.txt",
+        "staticwebassets/2.6.347/web/cmaps/Hiragana.txt",
+        "staticwebassets/2.6.347/web/cmaps/KSC-EUC-H.txt",
+        "staticwebassets/2.6.347/web/cmaps/KSC-EUC-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/KSC-H.txt",
+        "staticwebassets/2.6.347/web/cmaps/KSC-Johab-H.txt",
+        "staticwebassets/2.6.347/web/cmaps/KSC-Johab-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/KSC-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/KSCms-UHC-H.txt",
+        "staticwebassets/2.6.347/web/cmaps/KSCms-UHC-HW-H.txt",
+        "staticwebassets/2.6.347/web/cmaps/KSCms-UHC-HW-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/KSCms-UHC-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/KSCpc-EUC-H.txt",
+        "staticwebassets/2.6.347/web/cmaps/KSCpc-EUC-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/Katakana.txt",
+        "staticwebassets/2.6.347/web/cmaps/LICENSE",
+        "staticwebassets/2.6.347/web/cmaps/NWP-H.txt",
+        "staticwebassets/2.6.347/web/cmaps/NWP-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/RKSJ-H.txt",
+        "staticwebassets/2.6.347/web/cmaps/RKSJ-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/Roman.txt",
+        "staticwebassets/2.6.347/web/cmaps/UniCNS-UCS2-H.txt",
+        "staticwebassets/2.6.347/web/cmaps/UniCNS-UCS2-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/UniCNS-UTF16-H.txt",
+        "staticwebassets/2.6.347/web/cmaps/UniCNS-UTF16-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/UniCNS-UTF32-H.txt",
+        "staticwebassets/2.6.347/web/cmaps/UniCNS-UTF32-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/UniCNS-UTF8-H.txt",
+        "staticwebassets/2.6.347/web/cmaps/UniCNS-UTF8-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/UniGB-UCS2-H.txt",
+        "staticwebassets/2.6.347/web/cmaps/UniGB-UCS2-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/UniGB-UTF16-H.txt",
+        "staticwebassets/2.6.347/web/cmaps/UniGB-UTF16-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/UniGB-UTF32-H.txt",
+        "staticwebassets/2.6.347/web/cmaps/UniGB-UTF32-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/UniGB-UTF8-H.txt",
+        "staticwebassets/2.6.347/web/cmaps/UniGB-UTF8-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/UniJIS-UCS2-H.txt",
+        "staticwebassets/2.6.347/web/cmaps/UniJIS-UCS2-HW-H.txt",
+        "staticwebassets/2.6.347/web/cmaps/UniJIS-UCS2-HW-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/UniJIS-UCS2-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/UniJIS-UTF16-H.txt",
+        "staticwebassets/2.6.347/web/cmaps/UniJIS-UTF16-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/UniJIS-UTF32-H.txt",
+        "staticwebassets/2.6.347/web/cmaps/UniJIS-UTF32-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/UniJIS-UTF8-H.txt",
+        "staticwebassets/2.6.347/web/cmaps/UniJIS-UTF8-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/UniJIS2004-UTF16-H.txt",
+        "staticwebassets/2.6.347/web/cmaps/UniJIS2004-UTF16-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/UniJIS2004-UTF32-H.txt",
+        "staticwebassets/2.6.347/web/cmaps/UniJIS2004-UTF32-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/UniJIS2004-UTF8-H.txt",
+        "staticwebassets/2.6.347/web/cmaps/UniJIS2004-UTF8-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/UniJISPro-UCS2-HW-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/UniJISPro-UCS2-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/UniJISPro-UTF8-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/UniJISX0213-UTF32-H.txt",
+        "staticwebassets/2.6.347/web/cmaps/UniJISX0213-UTF32-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/UniJISX02132004-UTF32-H.txt",
+        "staticwebassets/2.6.347/web/cmaps/UniJISX02132004-UTF32-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/UniKS-UCS2-H.txt",
+        "staticwebassets/2.6.347/web/cmaps/UniKS-UCS2-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/UniKS-UTF16-H.txt",
+        "staticwebassets/2.6.347/web/cmaps/UniKS-UTF16-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/UniKS-UTF32-H.txt",
+        "staticwebassets/2.6.347/web/cmaps/UniKS-UTF32-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/UniKS-UTF8-H.txt",
+        "staticwebassets/2.6.347/web/cmaps/UniKS-UTF8-V.txt",
+        "staticwebassets/2.6.347/web/cmaps/V.txt",
+        "staticwebassets/2.6.347/web/cmaps/WP-Symbol.txt",
+        "staticwebassets/2.6.347/web/debugger.js",
+        "staticwebassets/2.6.347/web/images/annotation-check.svg",
+        "staticwebassets/2.6.347/web/images/annotation-comment.svg",
+        "staticwebassets/2.6.347/web/images/annotation-help.svg",
+        "staticwebassets/2.6.347/web/images/annotation-insert.svg",
+        "staticwebassets/2.6.347/web/images/annotation-key.svg",
+        "staticwebassets/2.6.347/web/images/annotation-newparagraph.svg",
+        "staticwebassets/2.6.347/web/images/annotation-noicon.svg",
+        "staticwebassets/2.6.347/web/images/annotation-note.svg",
+        "staticwebassets/2.6.347/web/images/annotation-paragraph.svg",
+        "staticwebassets/2.6.347/web/images/findbarButton-next-dark.svg",
+        "staticwebassets/2.6.347/web/images/findbarButton-next.svg",
+        "staticwebassets/2.6.347/web/images/findbarButton-previous-dark.svg",
+        "staticwebassets/2.6.347/web/images/findbarButton-previous.svg",
+        "staticwebassets/2.6.347/web/images/grab.cur",
+        "staticwebassets/2.6.347/web/images/grabbing.cur",
+        "staticwebassets/2.6.347/web/images/loading-dark.svg",
+        "staticwebassets/2.6.347/web/images/loading-icon.gif",
+        "staticwebassets/2.6.347/web/images/loading.svg",
+        "staticwebassets/2.6.347/web/images/secondaryToolbarButton-documentProperties-dark.svg",
+        "staticwebassets/2.6.347/web/images/secondaryToolbarButton-documentProperties.svg",
+        "staticwebassets/2.6.347/web/images/secondaryToolbarButton-firstPage-dark.svg",
+        "staticwebassets/2.6.347/web/images/secondaryToolbarButton-firstPage.svg",
+        "staticwebassets/2.6.347/web/images/secondaryToolbarButton-handTool-dark.svg",
+        "staticwebassets/2.6.347/web/images/secondaryToolbarButton-handTool.svg",
+        "staticwebassets/2.6.347/web/images/secondaryToolbarButton-lastPage-dark.svg",
+        "staticwebassets/2.6.347/web/images/secondaryToolbarButton-lastPage.svg",
+        "staticwebassets/2.6.347/web/images/secondaryToolbarButton-rotateCcw-dark.svg",
+        "staticwebassets/2.6.347/web/images/secondaryToolbarButton-rotateCcw.svg",
+        "staticwebassets/2.6.347/web/images/secondaryToolbarButton-rotateCw-dark.svg",
+        "staticwebassets/2.6.347/web/images/secondaryToolbarButton-rotateCw.svg",
+        "staticwebassets/2.6.347/web/images/secondaryToolbarButton-scrollHorizontal-dark.svg",
+        "staticwebassets/2.6.347/web/images/secondaryToolbarButton-scrollHorizontal.svg",
+        "staticwebassets/2.6.347/web/images/secondaryToolbarButton-scrollVertical-dark.svg",
+        "staticwebassets/2.6.347/web/images/secondaryToolbarButton-scrollVertical.svg",
+        "staticwebassets/2.6.347/web/images/secondaryToolbarButton-scrollWrapped-dark.svg",
+        "staticwebassets/2.6.347/web/images/secondaryToolbarButton-scrollWrapped.svg",
+        "staticwebassets/2.6.347/web/images/secondaryToolbarButton-selectTool-dark.svg",
+        "staticwebassets/2.6.347/web/images/secondaryToolbarButton-selectTool.svg",
+        "staticwebassets/2.6.347/web/images/secondaryToolbarButton-spreadEven-dark.svg",
+        "staticwebassets/2.6.347/web/images/secondaryToolbarButton-spreadEven.svg",
+        "staticwebassets/2.6.347/web/images/secondaryToolbarButton-spreadNone-dark.svg",
+        "staticwebassets/2.6.347/web/images/secondaryToolbarButton-spreadNone.svg",
+        "staticwebassets/2.6.347/web/images/secondaryToolbarButton-spreadOdd-dark.svg",
+        "staticwebassets/2.6.347/web/images/secondaryToolbarButton-spreadOdd.svg",
+        "staticwebassets/2.6.347/web/images/shadow.png",
+        "staticwebassets/2.6.347/web/images/toolbarButton-bookmark-dark.svg",
+        "staticwebassets/2.6.347/web/images/toolbarButton-bookmark.svg",
+        "staticwebassets/2.6.347/web/images/toolbarButton-download-dark.svg",
+        "staticwebassets/2.6.347/web/images/toolbarButton-download.svg",
+        "staticwebassets/2.6.347/web/images/toolbarButton-menuArrow-dark.svg",
+        "staticwebassets/2.6.347/web/images/toolbarButton-menuArrow.svg",
+        "staticwebassets/2.6.347/web/images/toolbarButton-openFile-dark.svg",
+        "staticwebassets/2.6.347/web/images/toolbarButton-openFile.svg",
+        "staticwebassets/2.6.347/web/images/toolbarButton-pageDown-dark.svg",
+        "staticwebassets/2.6.347/web/images/toolbarButton-pageDown.svg",
+        "staticwebassets/2.6.347/web/images/toolbarButton-pageUp-dark.svg",
+        "staticwebassets/2.6.347/web/images/toolbarButton-pageUp.svg",
+        "staticwebassets/2.6.347/web/images/toolbarButton-presentationMode-dark.svg",
+        "staticwebassets/2.6.347/web/images/toolbarButton-presentationMode.svg",
+        "staticwebassets/2.6.347/web/images/toolbarButton-print-dark.svg",
+        "staticwebassets/2.6.347/web/images/toolbarButton-print.svg",
+        "staticwebassets/2.6.347/web/images/toolbarButton-search-dark.svg",
+        "staticwebassets/2.6.347/web/images/toolbarButton-search.svg",
+        "staticwebassets/2.6.347/web/images/toolbarButton-secondaryToolbarToggle-dark.svg",
+        "staticwebassets/2.6.347/web/images/toolbarButton-secondaryToolbarToggle.svg",
+        "staticwebassets/2.6.347/web/images/toolbarButton-sidebarToggle-dark.svg",
+        "staticwebassets/2.6.347/web/images/toolbarButton-sidebarToggle.svg",
+        "staticwebassets/2.6.347/web/images/toolbarButton-viewAttachments-dark.svg",
+        "staticwebassets/2.6.347/web/images/toolbarButton-viewAttachments.svg",
+        "staticwebassets/2.6.347/web/images/toolbarButton-viewLayers-dark.svg",
+        "staticwebassets/2.6.347/web/images/toolbarButton-viewLayers.svg",
+        "staticwebassets/2.6.347/web/images/toolbarButton-viewOutline-dark.svg",
+        "staticwebassets/2.6.347/web/images/toolbarButton-viewOutline.svg",
+        "staticwebassets/2.6.347/web/images/toolbarButton-viewThumbnail-dark.svg",
+        "staticwebassets/2.6.347/web/images/toolbarButton-viewThumbnail.svg",
+        "staticwebassets/2.6.347/web/images/toolbarButton-zoomIn-dark.svg",
+        "staticwebassets/2.6.347/web/images/toolbarButton-zoomIn.svg",
+        "staticwebassets/2.6.347/web/images/toolbarButton-zoomOut-dark.svg",
+        "staticwebassets/2.6.347/web/images/toolbarButton-zoomOut.svg",
+        "staticwebassets/2.6.347/web/images/treeitem-collapsed-dark.svg",
+        "staticwebassets/2.6.347/web/images/treeitem-collapsed.svg",
+        "staticwebassets/2.6.347/web/images/treeitem-expanded-dark.svg",
+        "staticwebassets/2.6.347/web/images/treeitem-expanded.svg",
+        "staticwebassets/2.6.347/web/locale/ach/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/af/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/an/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/ar/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/ast/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/az/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/be/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/bg/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/bn/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/bo/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/br/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/brx/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/bs/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/ca/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/cak/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/ckb/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/cs/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/cy/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/da/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/de/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/dsb/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/el/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/en-CA/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/en-GB/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/en-US/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/eo/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/es-AR/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/es-CL/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/es-ES/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/es-MX/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/et/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/eu/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/fa/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/ff/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/fi/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/fr/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/fy-NL/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/ga-IE/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/gd/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/gl/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/gn/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/gu-IN/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/he/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/hi-IN/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/hr/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/hsb/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/hu/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/hy-AM/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/hye/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/ia/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/id/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/is/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/it/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/ja/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/ka/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/kab/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/kk/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/km/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/kn/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/ko/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/lij/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/lo/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/locale.txt",
+        "staticwebassets/2.6.347/web/locale/lt/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/ltg/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/lv/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/meh/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/mk/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/mr/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/ms/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/my/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/nb-NO/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/ne-NP/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/nl/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/nn-NO/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/oc/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/pa-IN/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/pl/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/pt-BR/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/pt-PT/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/rm/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/ro/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/ru/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/scn/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/si/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/sk/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/sl/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/son/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/sq/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/sr/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/sv-SE/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/szl/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/ta/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/te/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/th/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/tl/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/tr/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/trs/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/uk/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/ur/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/uz/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/vi/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/wo/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/xh/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/zh-CN/viewer.txt",
+        "staticwebassets/2.6.347/web/locale/zh-TW/viewer.txt",
+        "staticwebassets/2.6.347/web/viewer.css",
+        "staticwebassets/2.6.347/web/viewer.html",
+        "staticwebassets/2.6.347/web/viewer.js",
+        "staticwebassets/LICENSE",
+        "staticwebassets/app.js",
+        "staticwebassets/build/pdf.js",
+        "staticwebassets/build/pdf.sandbox.js",
+        "staticwebassets/build/pdf.worker.js",
+        "staticwebassets/compat/LICENSE",
+        "staticwebassets/compat/build/pdf.js",
+        "staticwebassets/compat/build/pdf.sandbox.js",
+        "staticwebassets/compat/build/pdf.worker.js",
+        "staticwebassets/compat/web/cmaps/78-EUC-H.txt",
+        "staticwebassets/compat/web/cmaps/78-EUC-V.txt",
+        "staticwebassets/compat/web/cmaps/78-H.txt",
+        "staticwebassets/compat/web/cmaps/78-RKSJ-H.txt",
+        "staticwebassets/compat/web/cmaps/78-RKSJ-V.txt",
+        "staticwebassets/compat/web/cmaps/78-V.txt",
+        "staticwebassets/compat/web/cmaps/78ms-RKSJ-H.txt",
+        "staticwebassets/compat/web/cmaps/78ms-RKSJ-V.txt",
+        "staticwebassets/compat/web/cmaps/83pv-RKSJ-H.txt",
+        "staticwebassets/compat/web/cmaps/90ms-RKSJ-H.txt",
+        "staticwebassets/compat/web/cmaps/90ms-RKSJ-V.txt",
+        "staticwebassets/compat/web/cmaps/90msp-RKSJ-H.txt",
+        "staticwebassets/compat/web/cmaps/90msp-RKSJ-V.txt",
+        "staticwebassets/compat/web/cmaps/90pv-RKSJ-H.txt",
+        "staticwebassets/compat/web/cmaps/90pv-RKSJ-V.txt",
+        "staticwebassets/compat/web/cmaps/Add-H.txt",
+        "staticwebassets/compat/web/cmaps/Add-RKSJ-H.txt",
+        "staticwebassets/compat/web/cmaps/Add-RKSJ-V.txt",
+        "staticwebassets/compat/web/cmaps/Add-V.txt",
+        "staticwebassets/compat/web/cmaps/Adobe-CNS1-0.txt",
+        "staticwebassets/compat/web/cmaps/Adobe-CNS1-1.txt",
+        "staticwebassets/compat/web/cmaps/Adobe-CNS1-2.txt",
+        "staticwebassets/compat/web/cmaps/Adobe-CNS1-3.txt",
+        "staticwebassets/compat/web/cmaps/Adobe-CNS1-4.txt",
+        "staticwebassets/compat/web/cmaps/Adobe-CNS1-5.txt",
+        "staticwebassets/compat/web/cmaps/Adobe-CNS1-6.txt",
+        "staticwebassets/compat/web/cmaps/Adobe-CNS1-UCS2.txt",
+        "staticwebassets/compat/web/cmaps/Adobe-GB1-0.txt",
+        "staticwebassets/compat/web/cmaps/Adobe-GB1-1.txt",
+        "staticwebassets/compat/web/cmaps/Adobe-GB1-2.txt",
+        "staticwebassets/compat/web/cmaps/Adobe-GB1-3.txt",
+        "staticwebassets/compat/web/cmaps/Adobe-GB1-4.txt",
+        "staticwebassets/compat/web/cmaps/Adobe-GB1-5.txt",
+        "staticwebassets/compat/web/cmaps/Adobe-GB1-UCS2.txt",
+        "staticwebassets/compat/web/cmaps/Adobe-Japan1-0.txt",
+        "staticwebassets/compat/web/cmaps/Adobe-Japan1-1.txt",
+        "staticwebassets/compat/web/cmaps/Adobe-Japan1-2.txt",
+        "staticwebassets/compat/web/cmaps/Adobe-Japan1-3.txt",
+        "staticwebassets/compat/web/cmaps/Adobe-Japan1-4.txt",
+        "staticwebassets/compat/web/cmaps/Adobe-Japan1-5.txt",
+        "staticwebassets/compat/web/cmaps/Adobe-Japan1-6.txt",
+        "staticwebassets/compat/web/cmaps/Adobe-Japan1-UCS2.txt",
+        "staticwebassets/compat/web/cmaps/Adobe-Korea1-0.txt",
+        "staticwebassets/compat/web/cmaps/Adobe-Korea1-1.txt",
+        "staticwebassets/compat/web/cmaps/Adobe-Korea1-2.txt",
+        "staticwebassets/compat/web/cmaps/Adobe-Korea1-UCS2.txt",
+        "staticwebassets/compat/web/cmaps/B5-H.txt",
+        "staticwebassets/compat/web/cmaps/B5-V.txt",
+        "staticwebassets/compat/web/cmaps/B5pc-H.txt",
+        "staticwebassets/compat/web/cmaps/B5pc-V.txt",
+        "staticwebassets/compat/web/cmaps/CNS-EUC-H.txt",
+        "staticwebassets/compat/web/cmaps/CNS-EUC-V.txt",
+        "staticwebassets/compat/web/cmaps/CNS1-H.txt",
+        "staticwebassets/compat/web/cmaps/CNS1-V.txt",
+        "staticwebassets/compat/web/cmaps/CNS2-H.txt",
+        "staticwebassets/compat/web/cmaps/CNS2-V.txt",
+        "staticwebassets/compat/web/cmaps/ETHK-B5-H.txt",
+        "staticwebassets/compat/web/cmaps/ETHK-B5-V.txt",
+        "staticwebassets/compat/web/cmaps/ETen-B5-H.txt",
+        "staticwebassets/compat/web/cmaps/ETen-B5-V.txt",
+        "staticwebassets/compat/web/cmaps/ETenms-B5-H.txt",
+        "staticwebassets/compat/web/cmaps/ETenms-B5-V.txt",
+        "staticwebassets/compat/web/cmaps/EUC-H.txt",
+        "staticwebassets/compat/web/cmaps/EUC-V.txt",
+        "staticwebassets/compat/web/cmaps/Ext-H.txt",
+        "staticwebassets/compat/web/cmaps/Ext-RKSJ-H.txt",
+        "staticwebassets/compat/web/cmaps/Ext-RKSJ-V.txt",
+        "staticwebassets/compat/web/cmaps/Ext-V.txt",
+        "staticwebassets/compat/web/cmaps/GB-EUC-H.txt",
+        "staticwebassets/compat/web/cmaps/GB-EUC-V.txt",
+        "staticwebassets/compat/web/cmaps/GB-H.txt",
+        "staticwebassets/compat/web/cmaps/GB-V.txt",
+        "staticwebassets/compat/web/cmaps/GBK-EUC-H.txt",
+        "staticwebassets/compat/web/cmaps/GBK-EUC-V.txt",
+        "staticwebassets/compat/web/cmaps/GBK2K-H.txt",
+        "staticwebassets/compat/web/cmaps/GBK2K-V.txt",
+        "staticwebassets/compat/web/cmaps/GBKp-EUC-H.txt",
+        "staticwebassets/compat/web/cmaps/GBKp-EUC-V.txt",
+        "staticwebassets/compat/web/cmaps/GBT-EUC-H.txt",
+        "staticwebassets/compat/web/cmaps/GBT-EUC-V.txt",
+        "staticwebassets/compat/web/cmaps/GBT-H.txt",
+        "staticwebassets/compat/web/cmaps/GBT-V.txt",
+        "staticwebassets/compat/web/cmaps/GBTpc-EUC-H.txt",
+        "staticwebassets/compat/web/cmaps/GBTpc-EUC-V.txt",
+        "staticwebassets/compat/web/cmaps/GBpc-EUC-H.txt",
+        "staticwebassets/compat/web/cmaps/GBpc-EUC-V.txt",
+        "staticwebassets/compat/web/cmaps/H.txt",
+        "staticwebassets/compat/web/cmaps/HKdla-B5-H.txt",
+        "staticwebassets/compat/web/cmaps/HKdla-B5-V.txt",
+        "staticwebassets/compat/web/cmaps/HKdlb-B5-H.txt",
+        "staticwebassets/compat/web/cmaps/HKdlb-B5-V.txt",
+        "staticwebassets/compat/web/cmaps/HKgccs-B5-H.txt",
+        "staticwebassets/compat/web/cmaps/HKgccs-B5-V.txt",
+        "staticwebassets/compat/web/cmaps/HKm314-B5-H.txt",
+        "staticwebassets/compat/web/cmaps/HKm314-B5-V.txt",
+        "staticwebassets/compat/web/cmaps/HKm471-B5-H.txt",
+        "staticwebassets/compat/web/cmaps/HKm471-B5-V.txt",
+        "staticwebassets/compat/web/cmaps/HKscs-B5-H.txt",
+        "staticwebassets/compat/web/cmaps/HKscs-B5-V.txt",
+        "staticwebassets/compat/web/cmaps/Hankaku.txt",
+        "staticwebassets/compat/web/cmaps/Hiragana.txt",
+        "staticwebassets/compat/web/cmaps/KSC-EUC-H.txt",
+        "staticwebassets/compat/web/cmaps/KSC-EUC-V.txt",
+        "staticwebassets/compat/web/cmaps/KSC-H.txt",
+        "staticwebassets/compat/web/cmaps/KSC-Johab-H.txt",
+        "staticwebassets/compat/web/cmaps/KSC-Johab-V.txt",
+        "staticwebassets/compat/web/cmaps/KSC-V.txt",
+        "staticwebassets/compat/web/cmaps/KSCms-UHC-H.txt",
+        "staticwebassets/compat/web/cmaps/KSCms-UHC-HW-H.txt",
+        "staticwebassets/compat/web/cmaps/KSCms-UHC-HW-V.txt",
+        "staticwebassets/compat/web/cmaps/KSCms-UHC-V.txt",
+        "staticwebassets/compat/web/cmaps/KSCpc-EUC-H.txt",
+        "staticwebassets/compat/web/cmaps/KSCpc-EUC-V.txt",
+        "staticwebassets/compat/web/cmaps/Katakana.txt",
+        "staticwebassets/compat/web/cmaps/LICENSE",
+        "staticwebassets/compat/web/cmaps/NWP-H.txt",
+        "staticwebassets/compat/web/cmaps/NWP-V.txt",
+        "staticwebassets/compat/web/cmaps/RKSJ-H.txt",
+        "staticwebassets/compat/web/cmaps/RKSJ-V.txt",
+        "staticwebassets/compat/web/cmaps/Roman.txt",
+        "staticwebassets/compat/web/cmaps/UniCNS-UCS2-H.txt",
+        "staticwebassets/compat/web/cmaps/UniCNS-UCS2-V.txt",
+        "staticwebassets/compat/web/cmaps/UniCNS-UTF16-H.txt",
+        "staticwebassets/compat/web/cmaps/UniCNS-UTF16-V.txt",
+        "staticwebassets/compat/web/cmaps/UniCNS-UTF32-H.txt",
+        "staticwebassets/compat/web/cmaps/UniCNS-UTF32-V.txt",
+        "staticwebassets/compat/web/cmaps/UniCNS-UTF8-H.txt",
+        "staticwebassets/compat/web/cmaps/UniCNS-UTF8-V.txt",
+        "staticwebassets/compat/web/cmaps/UniGB-UCS2-H.txt",
+        "staticwebassets/compat/web/cmaps/UniGB-UCS2-V.txt",
+        "staticwebassets/compat/web/cmaps/UniGB-UTF16-H.txt",
+        "staticwebassets/compat/web/cmaps/UniGB-UTF16-V.txt",
+        "staticwebassets/compat/web/cmaps/UniGB-UTF32-H.txt",
+        "staticwebassets/compat/web/cmaps/UniGB-UTF32-V.txt",
+        "staticwebassets/compat/web/cmaps/UniGB-UTF8-H.txt",
+        "staticwebassets/compat/web/cmaps/UniGB-UTF8-V.txt",
+        "staticwebassets/compat/web/cmaps/UniJIS-UCS2-H.txt",
+        "staticwebassets/compat/web/cmaps/UniJIS-UCS2-HW-H.txt",
+        "staticwebassets/compat/web/cmaps/UniJIS-UCS2-HW-V.txt",
+        "staticwebassets/compat/web/cmaps/UniJIS-UCS2-V.txt",
+        "staticwebassets/compat/web/cmaps/UniJIS-UTF16-H.txt",
+        "staticwebassets/compat/web/cmaps/UniJIS-UTF16-V.txt",
+        "staticwebassets/compat/web/cmaps/UniJIS-UTF32-H.txt",
+        "staticwebassets/compat/web/cmaps/UniJIS-UTF32-V.txt",
+        "staticwebassets/compat/web/cmaps/UniJIS-UTF8-H.txt",
+        "staticwebassets/compat/web/cmaps/UniJIS-UTF8-V.txt",
+        "staticwebassets/compat/web/cmaps/UniJIS2004-UTF16-H.txt",
+        "staticwebassets/compat/web/cmaps/UniJIS2004-UTF16-V.txt",
+        "staticwebassets/compat/web/cmaps/UniJIS2004-UTF32-H.txt",
+        "staticwebassets/compat/web/cmaps/UniJIS2004-UTF32-V.txt",
+        "staticwebassets/compat/web/cmaps/UniJIS2004-UTF8-H.txt",
+        "staticwebassets/compat/web/cmaps/UniJIS2004-UTF8-V.txt",
+        "staticwebassets/compat/web/cmaps/UniJISPro-UCS2-HW-V.txt",
+        "staticwebassets/compat/web/cmaps/UniJISPro-UCS2-V.txt",
+        "staticwebassets/compat/web/cmaps/UniJISPro-UTF8-V.txt",
+        "staticwebassets/compat/web/cmaps/UniJISX0213-UTF32-H.txt",
+        "staticwebassets/compat/web/cmaps/UniJISX0213-UTF32-V.txt",
+        "staticwebassets/compat/web/cmaps/UniJISX02132004-UTF32-H.txt",
+        "staticwebassets/compat/web/cmaps/UniJISX02132004-UTF32-V.txt",
+        "staticwebassets/compat/web/cmaps/UniKS-UCS2-H.txt",
+        "staticwebassets/compat/web/cmaps/UniKS-UCS2-V.txt",
+        "staticwebassets/compat/web/cmaps/UniKS-UTF16-H.txt",
+        "staticwebassets/compat/web/cmaps/UniKS-UTF16-V.txt",
+        "staticwebassets/compat/web/cmaps/UniKS-UTF32-H.txt",
+        "staticwebassets/compat/web/cmaps/UniKS-UTF32-V.txt",
+        "staticwebassets/compat/web/cmaps/UniKS-UTF8-H.txt",
+        "staticwebassets/compat/web/cmaps/UniKS-UTF8-V.txt",
+        "staticwebassets/compat/web/cmaps/V.txt",
+        "staticwebassets/compat/web/cmaps/WP-Symbol.txt",
+        "staticwebassets/compat/web/compressed.tracemonkey-pldi-09.pdf",
+        "staticwebassets/compat/web/debugger.css",
+        "staticwebassets/compat/web/debugger.js",
+        "staticwebassets/compat/web/images/annotation-check.svg",
+        "staticwebassets/compat/web/images/annotation-comment.svg",
+        "staticwebassets/compat/web/images/annotation-help.svg",
+        "staticwebassets/compat/web/images/annotation-insert.svg",
+        "staticwebassets/compat/web/images/annotation-key.svg",
+        "staticwebassets/compat/web/images/annotation-newparagraph.svg",
+        "staticwebassets/compat/web/images/annotation-noicon.svg",
+        "staticwebassets/compat/web/images/annotation-note.svg",
+        "staticwebassets/compat/web/images/annotation-paperclip.svg",
+        "staticwebassets/compat/web/images/annotation-paragraph.svg",
+        "staticwebassets/compat/web/images/annotation-pushpin.svg",
+        "staticwebassets/compat/web/images/cursor-editorFreeText.svg",
+        "staticwebassets/compat/web/images/cursor-editorInk.svg",
+        "staticwebassets/compat/web/images/findbarButton-next.svg",
+        "staticwebassets/compat/web/images/findbarButton-previous.svg",
+        "staticwebassets/compat/web/images/loading-dark.svg",
+        "staticwebassets/compat/web/images/loading-icon.gif",
+        "staticwebassets/compat/web/images/loading.svg",
+        "staticwebassets/compat/web/images/secondaryToolbarButton-documentProperties.svg",
+        "staticwebassets/compat/web/images/secondaryToolbarButton-firstPage.svg",
+        "staticwebassets/compat/web/images/secondaryToolbarButton-handTool.svg",
+        "staticwebassets/compat/web/images/secondaryToolbarButton-lastPage.svg",
+        "staticwebassets/compat/web/images/secondaryToolbarButton-rotateCcw.svg",
+        "staticwebassets/compat/web/images/secondaryToolbarButton-rotateCw.svg",
+        "staticwebassets/compat/web/images/secondaryToolbarButton-scrollHorizontal.svg",
+        "staticwebassets/compat/web/images/secondaryToolbarButton-scrollPage.svg",
+        "staticwebassets/compat/web/images/secondaryToolbarButton-scrollVertical.svg",
+        "staticwebassets/compat/web/images/secondaryToolbarButton-scrollWrapped.svg",
+        "staticwebassets/compat/web/images/secondaryToolbarButton-selectTool.svg",
+        "staticwebassets/compat/web/images/secondaryToolbarButton-spreadEven.svg",
+        "staticwebassets/compat/web/images/secondaryToolbarButton-spreadNone.svg",
+        "staticwebassets/compat/web/images/secondaryToolbarButton-spreadOdd.svg",
+        "staticwebassets/compat/web/images/toolbarButton-bookmark.svg",
+        "staticwebassets/compat/web/images/toolbarButton-currentOutlineItem.svg",
+        "staticwebassets/compat/web/images/toolbarButton-download.svg",
+        "staticwebassets/compat/web/images/toolbarButton-editorFreeText.svg",
+        "staticwebassets/compat/web/images/toolbarButton-editorInk.svg",
+        "staticwebassets/compat/web/images/toolbarButton-menuArrow.svg",
+        "staticwebassets/compat/web/images/toolbarButton-openFile.svg",
+        "staticwebassets/compat/web/images/toolbarButton-pageDown.svg",
+        "staticwebassets/compat/web/images/toolbarButton-pageUp.svg",
+        "staticwebassets/compat/web/images/toolbarButton-presentationMode.svg",
+        "staticwebassets/compat/web/images/toolbarButton-print.svg",
+        "staticwebassets/compat/web/images/toolbarButton-search.svg",
+        "staticwebassets/compat/web/images/toolbarButton-secondaryToolbarToggle.svg",
+        "staticwebassets/compat/web/images/toolbarButton-sidebarToggle.svg",
+        "staticwebassets/compat/web/images/toolbarButton-viewAttachments.svg",
+        "staticwebassets/compat/web/images/toolbarButton-viewLayers.svg",
+        "staticwebassets/compat/web/images/toolbarButton-viewOutline.svg",
+        "staticwebassets/compat/web/images/toolbarButton-viewThumbnail.svg",
+        "staticwebassets/compat/web/images/toolbarButton-zoomIn.svg",
+        "staticwebassets/compat/web/images/toolbarButton-zoomOut.svg",
+        "staticwebassets/compat/web/images/treeitem-collapsed.svg",
+        "staticwebassets/compat/web/images/treeitem-expanded.svg",
+        "staticwebassets/compat/web/locale/ach/viewer.txt",
+        "staticwebassets/compat/web/locale/af/viewer.txt",
+        "staticwebassets/compat/web/locale/an/viewer.txt",
+        "staticwebassets/compat/web/locale/ar/viewer.txt",
+        "staticwebassets/compat/web/locale/ast/viewer.txt",
+        "staticwebassets/compat/web/locale/az/viewer.txt",
+        "staticwebassets/compat/web/locale/be/viewer.txt",
+        "staticwebassets/compat/web/locale/bg/viewer.txt",
+        "staticwebassets/compat/web/locale/bn/viewer.txt",
+        "staticwebassets/compat/web/locale/bo/viewer.txt",
+        "staticwebassets/compat/web/locale/br/viewer.txt",
+        "staticwebassets/compat/web/locale/brx/viewer.txt",
+        "staticwebassets/compat/web/locale/bs/viewer.txt",
+        "staticwebassets/compat/web/locale/ca/viewer.txt",
+        "staticwebassets/compat/web/locale/cak/viewer.txt",
+        "staticwebassets/compat/web/locale/ckb/viewer.txt",
+        "staticwebassets/compat/web/locale/cs/viewer.txt",
+        "staticwebassets/compat/web/locale/cy/viewer.txt",
+        "staticwebassets/compat/web/locale/da/viewer.txt",
+        "staticwebassets/compat/web/locale/de/viewer.txt",
+        "staticwebassets/compat/web/locale/dsb/viewer.txt",
+        "staticwebassets/compat/web/locale/el/viewer.txt",
+        "staticwebassets/compat/web/locale/en-CA/viewer.txt",
+        "staticwebassets/compat/web/locale/en-GB/viewer.txt",
+        "staticwebassets/compat/web/locale/en-US/viewer.txt",
+        "staticwebassets/compat/web/locale/eo/viewer.txt",
+        "staticwebassets/compat/web/locale/es-AR/viewer.txt",
+        "staticwebassets/compat/web/locale/es-CL/viewer.txt",
+        "staticwebassets/compat/web/locale/es-ES/viewer.txt",
+        "staticwebassets/compat/web/locale/es-MX/viewer.txt",
+        "staticwebassets/compat/web/locale/et/viewer.txt",
+        "staticwebassets/compat/web/locale/eu/viewer.txt",
+        "staticwebassets/compat/web/locale/fa/viewer.txt",
+        "staticwebassets/compat/web/locale/ff/viewer.txt",
+        "staticwebassets/compat/web/locale/fi/viewer.txt",
+        "staticwebassets/compat/web/locale/fr/viewer.txt",
+        "staticwebassets/compat/web/locale/fur/viewer.txt",
+        "staticwebassets/compat/web/locale/fy-NL/viewer.txt",
+        "staticwebassets/compat/web/locale/ga-IE/viewer.txt",
+        "staticwebassets/compat/web/locale/gd/viewer.txt",
+        "staticwebassets/compat/web/locale/gl/viewer.txt",
+        "staticwebassets/compat/web/locale/gn/viewer.txt",
+        "staticwebassets/compat/web/locale/gu-IN/viewer.txt",
+        "staticwebassets/compat/web/locale/he/viewer.txt",
+        "staticwebassets/compat/web/locale/hi-IN/viewer.txt",
+        "staticwebassets/compat/web/locale/hr/viewer.txt",
+        "staticwebassets/compat/web/locale/hsb/viewer.txt",
+        "staticwebassets/compat/web/locale/hu/viewer.txt",
+        "staticwebassets/compat/web/locale/hy-AM/viewer.txt",
+        "staticwebassets/compat/web/locale/hye/viewer.txt",
+        "staticwebassets/compat/web/locale/ia/viewer.txt",
+        "staticwebassets/compat/web/locale/id/viewer.txt",
+        "staticwebassets/compat/web/locale/is/viewer.txt",
+        "staticwebassets/compat/web/locale/it/viewer.txt",
+        "staticwebassets/compat/web/locale/ja/viewer.txt",
+        "staticwebassets/compat/web/locale/ka/viewer.txt",
+        "staticwebassets/compat/web/locale/kab/viewer.txt",
+        "staticwebassets/compat/web/locale/kk/viewer.txt",
+        "staticwebassets/compat/web/locale/km/viewer.txt",
+        "staticwebassets/compat/web/locale/kn/viewer.txt",
+        "staticwebassets/compat/web/locale/ko/viewer.txt",
+        "staticwebassets/compat/web/locale/lij/viewer.txt",
+        "staticwebassets/compat/web/locale/lo/viewer.txt",
+        "staticwebassets/compat/web/locale/locale.txt",
+        "staticwebassets/compat/web/locale/lt/viewer.txt",
+        "staticwebassets/compat/web/locale/ltg/viewer.txt",
+        "staticwebassets/compat/web/locale/lv/viewer.txt",
+        "staticwebassets/compat/web/locale/meh/viewer.txt",
+        "staticwebassets/compat/web/locale/mk/viewer.txt",
+        "staticwebassets/compat/web/locale/mr/viewer.txt",
+        "staticwebassets/compat/web/locale/ms/viewer.txt",
+        "staticwebassets/compat/web/locale/my/viewer.txt",
+        "staticwebassets/compat/web/locale/nb-NO/viewer.txt",
+        "staticwebassets/compat/web/locale/ne-NP/viewer.txt",
+        "staticwebassets/compat/web/locale/nl/viewer.txt",
+        "staticwebassets/compat/web/locale/nn-NO/viewer.txt",
+        "staticwebassets/compat/web/locale/oc/viewer.txt",
+        "staticwebassets/compat/web/locale/pa-IN/viewer.txt",
+        "staticwebassets/compat/web/locale/pl/viewer.txt",
+        "staticwebassets/compat/web/locale/pt-BR/viewer.txt",
+        "staticwebassets/compat/web/locale/pt-PT/viewer.txt",
+        "staticwebassets/compat/web/locale/rm/viewer.txt",
+        "staticwebassets/compat/web/locale/ro/viewer.txt",
+        "staticwebassets/compat/web/locale/ru/viewer.txt",
+        "staticwebassets/compat/web/locale/sat/viewer.txt",
+        "staticwebassets/compat/web/locale/sc/viewer.txt",
+        "staticwebassets/compat/web/locale/scn/viewer.txt",
+        "staticwebassets/compat/web/locale/sco/viewer.txt",
+        "staticwebassets/compat/web/locale/si/viewer.txt",
+        "staticwebassets/compat/web/locale/sk/viewer.txt",
+        "staticwebassets/compat/web/locale/skr/viewer.txt",
+        "staticwebassets/compat/web/locale/sl/viewer.txt",
+        "staticwebassets/compat/web/locale/son/viewer.txt",
+        "staticwebassets/compat/web/locale/sq/viewer.txt",
+        "staticwebassets/compat/web/locale/sr/viewer.txt",
+        "staticwebassets/compat/web/locale/sv-SE/viewer.txt",
+        "staticwebassets/compat/web/locale/szl/viewer.txt",
+        "staticwebassets/compat/web/locale/ta/viewer.txt",
+        "staticwebassets/compat/web/locale/te/viewer.txt",
+        "staticwebassets/compat/web/locale/tg/viewer.txt",
+        "staticwebassets/compat/web/locale/th/viewer.txt",
+        "staticwebassets/compat/web/locale/tl/viewer.txt",
+        "staticwebassets/compat/web/locale/tr/viewer.txt",
+        "staticwebassets/compat/web/locale/trs/viewer.txt",
+        "staticwebassets/compat/web/locale/uk/viewer.txt",
+        "staticwebassets/compat/web/locale/ur/viewer.txt",
+        "staticwebassets/compat/web/locale/uz/viewer.txt",
+        "staticwebassets/compat/web/locale/vi/viewer.txt",
+        "staticwebassets/compat/web/locale/wo/viewer.txt",
+        "staticwebassets/compat/web/locale/xh/viewer.txt",
+        "staticwebassets/compat/web/locale/zh-CN/viewer.txt",
+        "staticwebassets/compat/web/locale/zh-TW/viewer.txt",
+        "staticwebassets/compat/web/standard_fonts/FoxitDingbats.txt",
+        "staticwebassets/compat/web/standard_fonts/FoxitFixed.txt",
+        "staticwebassets/compat/web/standard_fonts/FoxitFixedBold.txt",
+        "staticwebassets/compat/web/standard_fonts/FoxitFixedBoldItalic.txt",
+        "staticwebassets/compat/web/standard_fonts/FoxitFixedItalic.txt",
+        "staticwebassets/compat/web/standard_fonts/FoxitSans.txt",
+        "staticwebassets/compat/web/standard_fonts/FoxitSansBold.txt",
+        "staticwebassets/compat/web/standard_fonts/FoxitSansBoldItalic.txt",
+        "staticwebassets/compat/web/standard_fonts/FoxitSansItalic.txt",
+        "staticwebassets/compat/web/standard_fonts/FoxitSerif.txt",
+        "staticwebassets/compat/web/standard_fonts/FoxitSerifBold.txt",
+        "staticwebassets/compat/web/standard_fonts/FoxitSerifBoldItalic.txt",
+        "staticwebassets/compat/web/standard_fonts/FoxitSerifItalic.txt",
+        "staticwebassets/compat/web/standard_fonts/FoxitSymbol.txt",
+        "staticwebassets/compat/web/standard_fonts/LICENSE_FOXIT",
+        "staticwebassets/compat/web/standard_fonts/LICENSE_LIBERATION",
+        "staticwebassets/compat/web/standard_fonts/LiberationSans-Bold.ttf",
+        "staticwebassets/compat/web/standard_fonts/LiberationSans-BoldItalic.ttf",
+        "staticwebassets/compat/web/standard_fonts/LiberationSans-Italic.ttf",
+        "staticwebassets/compat/web/standard_fonts/LiberationSans-Regular.ttf",
+        "staticwebassets/compat/web/viewer.css",
+        "staticwebassets/compat/web/viewer.html",
+        "staticwebassets/compat/web/viewer.js",
+        "staticwebassets/web/cmaps/78-EUC-H.txt",
+        "staticwebassets/web/cmaps/78-EUC-V.txt",
+        "staticwebassets/web/cmaps/78-H.txt",
+        "staticwebassets/web/cmaps/78-RKSJ-H.txt",
+        "staticwebassets/web/cmaps/78-RKSJ-V.txt",
+        "staticwebassets/web/cmaps/78-V.txt",
+        "staticwebassets/web/cmaps/78ms-RKSJ-H.txt",
+        "staticwebassets/web/cmaps/78ms-RKSJ-V.txt",
+        "staticwebassets/web/cmaps/83pv-RKSJ-H.txt",
+        "staticwebassets/web/cmaps/90ms-RKSJ-H.txt",
+        "staticwebassets/web/cmaps/90ms-RKSJ-V.txt",
+        "staticwebassets/web/cmaps/90msp-RKSJ-H.txt",
+        "staticwebassets/web/cmaps/90msp-RKSJ-V.txt",
+        "staticwebassets/web/cmaps/90pv-RKSJ-H.txt",
+        "staticwebassets/web/cmaps/90pv-RKSJ-V.txt",
+        "staticwebassets/web/cmaps/Add-H.txt",
+        "staticwebassets/web/cmaps/Add-RKSJ-H.txt",
+        "staticwebassets/web/cmaps/Add-RKSJ-V.txt",
+        "staticwebassets/web/cmaps/Add-V.txt",
+        "staticwebassets/web/cmaps/Adobe-CNS1-0.txt",
+        "staticwebassets/web/cmaps/Adobe-CNS1-1.txt",
+        "staticwebassets/web/cmaps/Adobe-CNS1-2.txt",
+        "staticwebassets/web/cmaps/Adobe-CNS1-3.txt",
+        "staticwebassets/web/cmaps/Adobe-CNS1-4.txt",
+        "staticwebassets/web/cmaps/Adobe-CNS1-5.txt",
+        "staticwebassets/web/cmaps/Adobe-CNS1-6.txt",
+        "staticwebassets/web/cmaps/Adobe-CNS1-UCS2.txt",
+        "staticwebassets/web/cmaps/Adobe-GB1-0.txt",
+        "staticwebassets/web/cmaps/Adobe-GB1-1.txt",
+        "staticwebassets/web/cmaps/Adobe-GB1-2.txt",
+        "staticwebassets/web/cmaps/Adobe-GB1-3.txt",
+        "staticwebassets/web/cmaps/Adobe-GB1-4.txt",
+        "staticwebassets/web/cmaps/Adobe-GB1-5.txt",
+        "staticwebassets/web/cmaps/Adobe-GB1-UCS2.txt",
+        "staticwebassets/web/cmaps/Adobe-Japan1-0.txt",
+        "staticwebassets/web/cmaps/Adobe-Japan1-1.txt",
+        "staticwebassets/web/cmaps/Adobe-Japan1-2.txt",
+        "staticwebassets/web/cmaps/Adobe-Japan1-3.txt",
+        "staticwebassets/web/cmaps/Adobe-Japan1-4.txt",
+        "staticwebassets/web/cmaps/Adobe-Japan1-5.txt",
+        "staticwebassets/web/cmaps/Adobe-Japan1-6.txt",
+        "staticwebassets/web/cmaps/Adobe-Japan1-UCS2.txt",
+        "staticwebassets/web/cmaps/Adobe-Korea1-0.txt",
+        "staticwebassets/web/cmaps/Adobe-Korea1-1.txt",
+        "staticwebassets/web/cmaps/Adobe-Korea1-2.txt",
+        "staticwebassets/web/cmaps/Adobe-Korea1-UCS2.txt",
+        "staticwebassets/web/cmaps/B5-H.txt",
+        "staticwebassets/web/cmaps/B5-V.txt",
+        "staticwebassets/web/cmaps/B5pc-H.txt",
+        "staticwebassets/web/cmaps/B5pc-V.txt",
+        "staticwebassets/web/cmaps/CNS-EUC-H.txt",
+        "staticwebassets/web/cmaps/CNS-EUC-V.txt",
+        "staticwebassets/web/cmaps/CNS1-H.txt",
+        "staticwebassets/web/cmaps/CNS1-V.txt",
+        "staticwebassets/web/cmaps/CNS2-H.txt",
+        "staticwebassets/web/cmaps/CNS2-V.txt",
+        "staticwebassets/web/cmaps/ETHK-B5-H.txt",
+        "staticwebassets/web/cmaps/ETHK-B5-V.txt",
+        "staticwebassets/web/cmaps/ETen-B5-H.txt",
+        "staticwebassets/web/cmaps/ETen-B5-V.txt",
+        "staticwebassets/web/cmaps/ETenms-B5-H.txt",
+        "staticwebassets/web/cmaps/ETenms-B5-V.txt",
+        "staticwebassets/web/cmaps/EUC-H.txt",
+        "staticwebassets/web/cmaps/EUC-V.txt",
+        "staticwebassets/web/cmaps/Ext-H.txt",
+        "staticwebassets/web/cmaps/Ext-RKSJ-H.txt",
+        "staticwebassets/web/cmaps/Ext-RKSJ-V.txt",
+        "staticwebassets/web/cmaps/Ext-V.txt",
+        "staticwebassets/web/cmaps/GB-EUC-H.txt",
+        "staticwebassets/web/cmaps/GB-EUC-V.txt",
+        "staticwebassets/web/cmaps/GB-H.txt",
+        "staticwebassets/web/cmaps/GB-V.txt",
+        "staticwebassets/web/cmaps/GBK-EUC-H.txt",
+        "staticwebassets/web/cmaps/GBK-EUC-V.txt",
+        "staticwebassets/web/cmaps/GBK2K-H.txt",
+        "staticwebassets/web/cmaps/GBK2K-V.txt",
+        "staticwebassets/web/cmaps/GBKp-EUC-H.txt",
+        "staticwebassets/web/cmaps/GBKp-EUC-V.txt",
+        "staticwebassets/web/cmaps/GBT-EUC-H.txt",
+        "staticwebassets/web/cmaps/GBT-EUC-V.txt",
+        "staticwebassets/web/cmaps/GBT-H.txt",
+        "staticwebassets/web/cmaps/GBT-V.txt",
+        "staticwebassets/web/cmaps/GBTpc-EUC-H.txt",
+        "staticwebassets/web/cmaps/GBTpc-EUC-V.txt",
+        "staticwebassets/web/cmaps/GBpc-EUC-H.txt",
+        "staticwebassets/web/cmaps/GBpc-EUC-V.txt",
+        "staticwebassets/web/cmaps/H.txt",
+        "staticwebassets/web/cmaps/HKdla-B5-H.txt",
+        "staticwebassets/web/cmaps/HKdla-B5-V.txt",
+        "staticwebassets/web/cmaps/HKdlb-B5-H.txt",
+        "staticwebassets/web/cmaps/HKdlb-B5-V.txt",
+        "staticwebassets/web/cmaps/HKgccs-B5-H.txt",
+        "staticwebassets/web/cmaps/HKgccs-B5-V.txt",
+        "staticwebassets/web/cmaps/HKm314-B5-H.txt",
+        "staticwebassets/web/cmaps/HKm314-B5-V.txt",
+        "staticwebassets/web/cmaps/HKm471-B5-H.txt",
+        "staticwebassets/web/cmaps/HKm471-B5-V.txt",
+        "staticwebassets/web/cmaps/HKscs-B5-H.txt",
+        "staticwebassets/web/cmaps/HKscs-B5-V.txt",
+        "staticwebassets/web/cmaps/Hankaku.txt",
+        "staticwebassets/web/cmaps/Hiragana.txt",
+        "staticwebassets/web/cmaps/KSC-EUC-H.txt",
+        "staticwebassets/web/cmaps/KSC-EUC-V.txt",
+        "staticwebassets/web/cmaps/KSC-H.txt",
+        "staticwebassets/web/cmaps/KSC-Johab-H.txt",
+        "staticwebassets/web/cmaps/KSC-Johab-V.txt",
+        "staticwebassets/web/cmaps/KSC-V.txt",
+        "staticwebassets/web/cmaps/KSCms-UHC-H.txt",
+        "staticwebassets/web/cmaps/KSCms-UHC-HW-H.txt",
+        "staticwebassets/web/cmaps/KSCms-UHC-HW-V.txt",
+        "staticwebassets/web/cmaps/KSCms-UHC-V.txt",
+        "staticwebassets/web/cmaps/KSCpc-EUC-H.txt",
+        "staticwebassets/web/cmaps/KSCpc-EUC-V.txt",
+        "staticwebassets/web/cmaps/Katakana.txt",
+        "staticwebassets/web/cmaps/LICENSE",
+        "staticwebassets/web/cmaps/NWP-H.txt",
+        "staticwebassets/web/cmaps/NWP-V.txt",
+        "staticwebassets/web/cmaps/RKSJ-H.txt",
+        "staticwebassets/web/cmaps/RKSJ-V.txt",
+        "staticwebassets/web/cmaps/Roman.txt",
+        "staticwebassets/web/cmaps/UniCNS-UCS2-H.txt",
+        "staticwebassets/web/cmaps/UniCNS-UCS2-V.txt",
+        "staticwebassets/web/cmaps/UniCNS-UTF16-H.txt",
+        "staticwebassets/web/cmaps/UniCNS-UTF16-V.txt",
+        "staticwebassets/web/cmaps/UniCNS-UTF32-H.txt",
+        "staticwebassets/web/cmaps/UniCNS-UTF32-V.txt",
+        "staticwebassets/web/cmaps/UniCNS-UTF8-H.txt",
+        "staticwebassets/web/cmaps/UniCNS-UTF8-V.txt",
+        "staticwebassets/web/cmaps/UniGB-UCS2-H.txt",
+        "staticwebassets/web/cmaps/UniGB-UCS2-V.txt",
+        "staticwebassets/web/cmaps/UniGB-UTF16-H.txt",
+        "staticwebassets/web/cmaps/UniGB-UTF16-V.txt",
+        "staticwebassets/web/cmaps/UniGB-UTF32-H.txt",
+        "staticwebassets/web/cmaps/UniGB-UTF32-V.txt",
+        "staticwebassets/web/cmaps/UniGB-UTF8-H.txt",
+        "staticwebassets/web/cmaps/UniGB-UTF8-V.txt",
+        "staticwebassets/web/cmaps/UniJIS-UCS2-H.txt",
+        "staticwebassets/web/cmaps/UniJIS-UCS2-HW-H.txt",
+        "staticwebassets/web/cmaps/UniJIS-UCS2-HW-V.txt",
+        "staticwebassets/web/cmaps/UniJIS-UCS2-V.txt",
+        "staticwebassets/web/cmaps/UniJIS-UTF16-H.txt",
+        "staticwebassets/web/cmaps/UniJIS-UTF16-V.txt",
+        "staticwebassets/web/cmaps/UniJIS-UTF32-H.txt",
+        "staticwebassets/web/cmaps/UniJIS-UTF32-V.txt",
+        "staticwebassets/web/cmaps/UniJIS-UTF8-H.txt",
+        "staticwebassets/web/cmaps/UniJIS-UTF8-V.txt",
+        "staticwebassets/web/cmaps/UniJIS2004-UTF16-H.txt",
+        "staticwebassets/web/cmaps/UniJIS2004-UTF16-V.txt",
+        "staticwebassets/web/cmaps/UniJIS2004-UTF32-H.txt",
+        "staticwebassets/web/cmaps/UniJIS2004-UTF32-V.txt",
+        "staticwebassets/web/cmaps/UniJIS2004-UTF8-H.txt",
+        "staticwebassets/web/cmaps/UniJIS2004-UTF8-V.txt",
+        "staticwebassets/web/cmaps/UniJISPro-UCS2-HW-V.txt",
+        "staticwebassets/web/cmaps/UniJISPro-UCS2-V.txt",
+        "staticwebassets/web/cmaps/UniJISPro-UTF8-V.txt",
+        "staticwebassets/web/cmaps/UniJISX0213-UTF32-H.txt",
+        "staticwebassets/web/cmaps/UniJISX0213-UTF32-V.txt",
+        "staticwebassets/web/cmaps/UniJISX02132004-UTF32-H.txt",
+        "staticwebassets/web/cmaps/UniJISX02132004-UTF32-V.txt",
+        "staticwebassets/web/cmaps/UniKS-UCS2-H.txt",
+        "staticwebassets/web/cmaps/UniKS-UCS2-V.txt",
+        "staticwebassets/web/cmaps/UniKS-UTF16-H.txt",
+        "staticwebassets/web/cmaps/UniKS-UTF16-V.txt",
+        "staticwebassets/web/cmaps/UniKS-UTF32-H.txt",
+        "staticwebassets/web/cmaps/UniKS-UTF32-V.txt",
+        "staticwebassets/web/cmaps/UniKS-UTF8-H.txt",
+        "staticwebassets/web/cmaps/UniKS-UTF8-V.txt",
+        "staticwebassets/web/cmaps/V.txt",
+        "staticwebassets/web/cmaps/WP-Symbol.txt",
+        "staticwebassets/web/debugger.css",
+        "staticwebassets/web/debugger.js",
+        "staticwebassets/web/images/annotation-check.svg",
+        "staticwebassets/web/images/annotation-comment.svg",
+        "staticwebassets/web/images/annotation-help.svg",
+        "staticwebassets/web/images/annotation-insert.svg",
+        "staticwebassets/web/images/annotation-key.svg",
+        "staticwebassets/web/images/annotation-newparagraph.svg",
+        "staticwebassets/web/images/annotation-noicon.svg",
+        "staticwebassets/web/images/annotation-note.svg",
+        "staticwebassets/web/images/annotation-paragraph.svg",
+        "staticwebassets/web/images/cursor-editorInk.svg",
+        "staticwebassets/web/images/findbarButton-next.svg",
+        "staticwebassets/web/images/findbarButton-previous.svg",
+        "staticwebassets/web/images/loading-dark.svg",
+        "staticwebassets/web/images/loading-icon.gif",
+        "staticwebassets/web/images/loading.svg",
+        "staticwebassets/web/images/secondaryToolbarButton-documentProperties.svg",
+        "staticwebassets/web/images/secondaryToolbarButton-firstPage.svg",
+        "staticwebassets/web/images/secondaryToolbarButton-handTool.svg",
+        "staticwebassets/web/images/secondaryToolbarButton-lastPage.svg",
+        "staticwebassets/web/images/secondaryToolbarButton-rotateCcw.svg",
+        "staticwebassets/web/images/secondaryToolbarButton-rotateCw.svg",
+        "staticwebassets/web/images/secondaryToolbarButton-scrollHorizontal.svg",
+        "staticwebassets/web/images/secondaryToolbarButton-scrollPage.svg",
+        "staticwebassets/web/images/secondaryToolbarButton-scrollVertical.svg",
+        "staticwebassets/web/images/secondaryToolbarButton-scrollWrapped.svg",
+        "staticwebassets/web/images/secondaryToolbarButton-selectTool.svg",
+        "staticwebassets/web/images/secondaryToolbarButton-spreadEven.svg",
+        "staticwebassets/web/images/secondaryToolbarButton-spreadNone.svg",
+        "staticwebassets/web/images/secondaryToolbarButton-spreadOdd.svg",
+        "staticwebassets/web/images/shadow.png",
+        "staticwebassets/web/images/toolbarButton-bookmark.svg",
+        "staticwebassets/web/images/toolbarButton-currentOutlineItem.svg",
+        "staticwebassets/web/images/toolbarButton-download.svg",
+        "staticwebassets/web/images/toolbarButton-editorFreeText.svg",
+        "staticwebassets/web/images/toolbarButton-editorInk.svg",
+        "staticwebassets/web/images/toolbarButton-menuArrow.svg",
+        "staticwebassets/web/images/toolbarButton-openFile.svg",
+        "staticwebassets/web/images/toolbarButton-pageDown.svg",
+        "staticwebassets/web/images/toolbarButton-pageUp.svg",
+        "staticwebassets/web/images/toolbarButton-presentationMode.svg",
+        "staticwebassets/web/images/toolbarButton-print.svg",
+        "staticwebassets/web/images/toolbarButton-search.svg",
+        "staticwebassets/web/images/toolbarButton-secondaryToolbarToggle.svg",
+        "staticwebassets/web/images/toolbarButton-sidebarToggle.svg",
+        "staticwebassets/web/images/toolbarButton-viewAttachments.svg",
+        "staticwebassets/web/images/toolbarButton-viewLayers.svg",
+        "staticwebassets/web/images/toolbarButton-viewOutline.svg",
+        "staticwebassets/web/images/toolbarButton-viewThumbnail.svg",
+        "staticwebassets/web/images/toolbarButton-zoomIn.svg",
+        "staticwebassets/web/images/toolbarButton-zoomOut.svg",
+        "staticwebassets/web/images/treeitem-collapsed.svg",
+        "staticwebassets/web/images/treeitem-expanded.svg",
+        "staticwebassets/web/limit.js",
+        "staticwebassets/web/locale/ach/viewer.txt",
+        "staticwebassets/web/locale/af/viewer.txt",
+        "staticwebassets/web/locale/an/viewer.txt",
+        "staticwebassets/web/locale/ar/viewer.txt",
+        "staticwebassets/web/locale/ast/viewer.txt",
+        "staticwebassets/web/locale/az/viewer.txt",
+        "staticwebassets/web/locale/be/viewer.txt",
+        "staticwebassets/web/locale/bg/viewer.txt",
+        "staticwebassets/web/locale/bn/viewer.txt",
+        "staticwebassets/web/locale/bo/viewer.txt",
+        "staticwebassets/web/locale/br/viewer.txt",
+        "staticwebassets/web/locale/brx/viewer.txt",
+        "staticwebassets/web/locale/bs/viewer.txt",
+        "staticwebassets/web/locale/ca/viewer.txt",
+        "staticwebassets/web/locale/cak/viewer.txt",
+        "staticwebassets/web/locale/ckb/viewer.txt",
+        "staticwebassets/web/locale/cs/viewer.txt",
+        "staticwebassets/web/locale/cy/viewer.txt",
+        "staticwebassets/web/locale/da/viewer.txt",
+        "staticwebassets/web/locale/de/viewer.txt",
+        "staticwebassets/web/locale/dsb/viewer.txt",
+        "staticwebassets/web/locale/el/viewer.txt",
+        "staticwebassets/web/locale/en-CA/viewer.txt",
+        "staticwebassets/web/locale/en-GB/viewer.txt",
+        "staticwebassets/web/locale/en-US/viewer.txt",
+        "staticwebassets/web/locale/eo/viewer.txt",
+        "staticwebassets/web/locale/es-AR/viewer.txt",
+        "staticwebassets/web/locale/es-CL/viewer.txt",
+        "staticwebassets/web/locale/es-ES/viewer.txt",
+        "staticwebassets/web/locale/es-MX/viewer.txt",
+        "staticwebassets/web/locale/et/viewer.txt",
+        "staticwebassets/web/locale/eu/viewer.txt",
+        "staticwebassets/web/locale/fa/viewer.txt",
+        "staticwebassets/web/locale/ff/viewer.txt",
+        "staticwebassets/web/locale/fi/viewer.txt",
+        "staticwebassets/web/locale/fr/viewer.txt",
+        "staticwebassets/web/locale/fy-NL/viewer.txt",
+        "staticwebassets/web/locale/ga-IE/viewer.txt",
+        "staticwebassets/web/locale/gd/viewer.txt",
+        "staticwebassets/web/locale/gl/viewer.txt",
+        "staticwebassets/web/locale/gn/viewer.txt",
+        "staticwebassets/web/locale/gu-IN/viewer.txt",
+        "staticwebassets/web/locale/he/viewer.txt",
+        "staticwebassets/web/locale/hi-IN/viewer.txt",
+        "staticwebassets/web/locale/hr/viewer.txt",
+        "staticwebassets/web/locale/hsb/viewer.txt",
+        "staticwebassets/web/locale/hu/viewer.txt",
+        "staticwebassets/web/locale/hy-AM/viewer.txt",
+        "staticwebassets/web/locale/hye/viewer.txt",
+        "staticwebassets/web/locale/ia/viewer.txt",
+        "staticwebassets/web/locale/id/viewer.txt",
+        "staticwebassets/web/locale/is/viewer.txt",
+        "staticwebassets/web/locale/it/viewer.txt",
+        "staticwebassets/web/locale/ja/viewer.txt",
+        "staticwebassets/web/locale/ka/viewer.txt",
+        "staticwebassets/web/locale/kab/viewer.txt",
+        "staticwebassets/web/locale/kk/viewer.txt",
+        "staticwebassets/web/locale/km/viewer.txt",
+        "staticwebassets/web/locale/kn/viewer.txt",
+        "staticwebassets/web/locale/ko/viewer.txt",
+        "staticwebassets/web/locale/lij/viewer.txt",
+        "staticwebassets/web/locale/lo/viewer.txt",
+        "staticwebassets/web/locale/locale.txt",
+        "staticwebassets/web/locale/lt/viewer.txt",
+        "staticwebassets/web/locale/ltg/viewer.txt",
+        "staticwebassets/web/locale/lv/viewer.txt",
+        "staticwebassets/web/locale/meh/viewer.txt",
+        "staticwebassets/web/locale/mk/viewer.txt",
+        "staticwebassets/web/locale/mr/viewer.txt",
+        "staticwebassets/web/locale/ms/viewer.txt",
+        "staticwebassets/web/locale/my/viewer.txt",
+        "staticwebassets/web/locale/nb-NO/viewer.txt",
+        "staticwebassets/web/locale/ne-NP/viewer.txt",
+        "staticwebassets/web/locale/nl/viewer.txt",
+        "staticwebassets/web/locale/nn-NO/viewer.txt",
+        "staticwebassets/web/locale/oc/viewer.txt",
+        "staticwebassets/web/locale/pa-IN/viewer.txt",
+        "staticwebassets/web/locale/pl/viewer.txt",
+        "staticwebassets/web/locale/pt-BR/viewer.txt",
+        "staticwebassets/web/locale/pt-PT/viewer.txt",
+        "staticwebassets/web/locale/rm/viewer.txt",
+        "staticwebassets/web/locale/ro/viewer.txt",
+        "staticwebassets/web/locale/ru/viewer.txt",
+        "staticwebassets/web/locale/sat/viewer.txt",
+        "staticwebassets/web/locale/sc/viewer.txt",
+        "staticwebassets/web/locale/scn/viewer.txt",
+        "staticwebassets/web/locale/sco/viewer.txt",
+        "staticwebassets/web/locale/si/viewer.txt",
+        "staticwebassets/web/locale/sk/viewer.txt",
+        "staticwebassets/web/locale/sl/viewer.txt",
+        "staticwebassets/web/locale/son/viewer.txt",
+        "staticwebassets/web/locale/sq/viewer.txt",
+        "staticwebassets/web/locale/sr/viewer.txt",
+        "staticwebassets/web/locale/sv-SE/viewer.txt",
+        "staticwebassets/web/locale/szl/viewer.txt",
+        "staticwebassets/web/locale/ta/viewer.txt",
+        "staticwebassets/web/locale/te/viewer.txt",
+        "staticwebassets/web/locale/tg/viewer.txt",
+        "staticwebassets/web/locale/th/viewer.txt",
+        "staticwebassets/web/locale/tl/viewer.txt",
+        "staticwebassets/web/locale/tr/viewer.txt",
+        "staticwebassets/web/locale/trs/viewer.txt",
+        "staticwebassets/web/locale/uk/viewer.txt",
+        "staticwebassets/web/locale/ur/viewer.txt",
+        "staticwebassets/web/locale/uz/viewer.txt",
+        "staticwebassets/web/locale/vi/viewer.txt",
+        "staticwebassets/web/locale/wo/viewer.txt",
+        "staticwebassets/web/locale/xh/viewer.txt",
+        "staticwebassets/web/locale/zh-CN/viewer.txt",
+        "staticwebassets/web/locale/zh-TW/viewer.txt",
+        "staticwebassets/web/standard_fonts/FoxitDingbats.txt",
+        "staticwebassets/web/standard_fonts/FoxitFixed.txt",
+        "staticwebassets/web/standard_fonts/FoxitFixedBold.txt",
+        "staticwebassets/web/standard_fonts/FoxitFixedBoldItalic.txt",
+        "staticwebassets/web/standard_fonts/FoxitFixedItalic.txt",
+        "staticwebassets/web/standard_fonts/FoxitSans.txt",
+        "staticwebassets/web/standard_fonts/FoxitSansBold.txt",
+        "staticwebassets/web/standard_fonts/FoxitSansBoldItalic.txt",
+        "staticwebassets/web/standard_fonts/FoxitSansItalic.txt",
+        "staticwebassets/web/standard_fonts/FoxitSerif.txt",
+        "staticwebassets/web/standard_fonts/FoxitSerifBold.txt",
+        "staticwebassets/web/standard_fonts/FoxitSerifBoldItalic.txt",
+        "staticwebassets/web/standard_fonts/FoxitSerifItalic.txt",
+        "staticwebassets/web/standard_fonts/FoxitSymbol.txt",
+        "staticwebassets/web/standard_fonts/LICENSE_FOXIT",
+        "staticwebassets/web/standard_fonts/LICENSE_LIBERATION",
+        "staticwebassets/web/standard_fonts/LiberationSans-Bold.ttf",
+        "staticwebassets/web/standard_fonts/LiberationSans-BoldItalic.ttf",
+        "staticwebassets/web/standard_fonts/LiberationSans-Italic.ttf",
+        "staticwebassets/web/standard_fonts/LiberationSans-Regular.ttf",
+        "staticwebassets/web/tools.js",
+        "staticwebassets/web/viewer.css",
+        "staticwebassets/web/viewer.html",
+        "staticwebassets/web/viewer.js",
+        "staticwebassets/web/viewerlimit.html",
+        "staticwebassets/web/viewerlimit.js"
+      ]
+    },
+    "Microsoft.AspNetCore.Authorization/8.0.11": {
+      "sha512": "ACaLyjBSz9WUzbaJe0Sv09/FihRNHYlRUIj3uQ8CZFFByf6Qwv3+PXnbltidFKz2iOyqdvppQias3emdQUY2nA==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.authorization/8.0.11",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net462/Microsoft.AspNetCore.Authorization.dll",
+        "lib/net462/Microsoft.AspNetCore.Authorization.xml",
+        "lib/net8.0/Microsoft.AspNetCore.Authorization.dll",
+        "lib/net8.0/Microsoft.AspNetCore.Authorization.xml",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.xml",
+        "microsoft.aspnetcore.authorization.8.0.11.nupkg.sha512",
+        "microsoft.aspnetcore.authorization.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Components/8.0.11": {
+      "sha512": "kyhSQcVEQvMnv2BNRn7JRgYCr+PIO5Uh1mhIFdCNycxE/k8NsI72sV693s1KVmVebMA8g3hTBmfBEheWb3hhww==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.components/8.0.11",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.txt",
+        "lib/net8.0/Microsoft.AspNetCore.Components.dll",
+        "lib/net8.0/Microsoft.AspNetCore.Components.xml",
+        "microsoft.aspnetcore.components.8.0.11.nupkg.sha512",
+        "microsoft.aspnetcore.components.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Components.Analyzers/8.0.11": {
+      "sha512": "4JtFt5IR0ixuFpwY6D2Xi5R+vZQ6iykd2EuG3puHETCOZOgYG8M538LCY1lbgQTkHOL04YKDjQTQu8PU/BaXRQ==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.components.analyzers/8.0.11",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.txt",
+        "analyzers/dotnet/cs/Microsoft.AspNetCore.Components.Analyzers.dll",
+        "build/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets",
+        "buildTransitive/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets",
+        "microsoft.aspnetcore.components.analyzers.8.0.11.nupkg.sha512",
+        "microsoft.aspnetcore.components.analyzers.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Components.Authorization/8.0.11": {
+      "sha512": "K1OES99Yj+nMg6ulpXOY+iAK/0RUXEMtdjVzM26IixYKaXFwcKHzMljgv/sZoU3TgQNgp4FD4f38JrUZXUvEgA==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.components.authorization/8.0.11",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.txt",
+        "lib/net8.0/Microsoft.AspNetCore.Components.Authorization.dll",
+        "lib/net8.0/Microsoft.AspNetCore.Components.Authorization.xml",
+        "microsoft.aspnetcore.components.authorization.8.0.11.nupkg.sha512",
+        "microsoft.aspnetcore.components.authorization.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Components.Forms/8.0.11": {
+      "sha512": "60g+idqaiVhPVNOqauy/vH5lREpjcuKl3/w6zJhdU1PFWg4jtdoyIPQH+qxBKsUohkELhH3cRfzGRKElVuZuwg==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.components.forms/8.0.11",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.txt",
+        "lib/net8.0/Microsoft.AspNetCore.Components.Forms.dll",
+        "lib/net8.0/Microsoft.AspNetCore.Components.Forms.xml",
+        "microsoft.aspnetcore.components.forms.8.0.11.nupkg.sha512",
+        "microsoft.aspnetcore.components.forms.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Components.Web/8.0.11": {
+      "sha512": "IDmjQ/K7hv6zUEz2LsCkQBngZx6PMnty8OdSPf0hYGMpC+4Yi37pgCc/25fFu3CSBe8nDirqTrqKtfToHWCpbw==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.components.web/8.0.11",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.txt",
+        "lib/net8.0/Microsoft.AspNetCore.Components.Web.dll",
+        "lib/net8.0/Microsoft.AspNetCore.Components.Web.xml",
+        "microsoft.aspnetcore.components.web.8.0.11.nupkg.sha512",
+        "microsoft.aspnetcore.components.web.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Components.WebAssembly/8.0.11": {
+      "sha512": "rrvIBSuEmxSo9qn18QHarVE1azbTk6+HU8CgYCUiNmh+NcK7dz6FmkiX3TH+buE+X1I/735LacefMabr4spLRg==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.components.webassembly/8.0.11",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.txt",
+        "build/net8.0/Microsoft.AspNetCore.Components.WebAssembly.props",
+        "build/net8.0/blazor.webassembly.js",
+        "lib/net8.0/Microsoft.AspNetCore.Components.WebAssembly.dll",
+        "lib/net8.0/Microsoft.AspNetCore.Components.WebAssembly.xml",
+        "microsoft.aspnetcore.components.webassembly.8.0.11.nupkg.sha512",
+        "microsoft.aspnetcore.components.webassembly.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Metadata/8.0.11": {
+      "sha512": "cy04xnMSTXTkRPjEwseRz57R5zjR/CWsdEOHH6NhWbNl97k+U1w6dSjqIOC7kv08tyzmM30FzIilSDtE5HdL/A==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.metadata/8.0.11",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net462/Microsoft.AspNetCore.Metadata.dll",
+        "lib/net462/Microsoft.AspNetCore.Metadata.xml",
+        "lib/net8.0/Microsoft.AspNetCore.Metadata.dll",
+        "lib/net8.0/Microsoft.AspNetCore.Metadata.xml",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Metadata.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Metadata.xml",
+        "microsoft.aspnetcore.metadata.8.0.11.nupkg.sha512",
+        "microsoft.aspnetcore.metadata.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Caching.Abstractions/8.0.0": {
+      "sha512": "3KuSxeHoNYdxVYfg2IRZCThcrlJ1XJqIXkAWikCsbm5C/bCjv7G0WoKDyuR98Q+T607QT2Zl5GsbGRkENcV2yQ==",
+      "type": "package",
+      "path": "microsoft.extensions.caching.abstractions/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.Caching.Abstractions.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Caching.Abstractions.targets",
+        "lib/net462/Microsoft.Extensions.Caching.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.Caching.Abstractions.xml",
+        "lib/net6.0/Microsoft.Extensions.Caching.Abstractions.dll",
+        "lib/net6.0/Microsoft.Extensions.Caching.Abstractions.xml",
+        "lib/net7.0/Microsoft.Extensions.Caching.Abstractions.dll",
+        "lib/net7.0/Microsoft.Extensions.Caching.Abstractions.xml",
+        "lib/net8.0/Microsoft.Extensions.Caching.Abstractions.dll",
+        "lib/net8.0/Microsoft.Extensions.Caching.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.xml",
+        "microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
+        "microsoft.extensions.caching.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Caching.Memory/8.0.1": {
+      "sha512": "HFDnhYLccngrzyGgHkjEDU5FMLn4MpOsr5ElgsBMC4yx6lJh4jeWO7fHS8+TXPq+dgxCmUa/Trl8svObmwW4QA==",
+      "type": "package",
+      "path": "microsoft.extensions.caching.memory/8.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.Caching.Memory.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Caching.Memory.targets",
+        "lib/net462/Microsoft.Extensions.Caching.Memory.dll",
+        "lib/net462/Microsoft.Extensions.Caching.Memory.xml",
+        "lib/net6.0/Microsoft.Extensions.Caching.Memory.dll",
+        "lib/net6.0/Microsoft.Extensions.Caching.Memory.xml",
+        "lib/net7.0/Microsoft.Extensions.Caching.Memory.dll",
+        "lib/net7.0/Microsoft.Extensions.Caching.Memory.xml",
+        "lib/net8.0/Microsoft.Extensions.Caching.Memory.dll",
+        "lib/net8.0/Microsoft.Extensions.Caching.Memory.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.xml",
+        "microsoft.extensions.caching.memory.8.0.1.nupkg.sha512",
+        "microsoft.extensions.caching.memory.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Configuration/8.0.0": {
+      "sha512": "0J/9YNXTMWSZP2p2+nvl8p71zpSwokZXZuJW+VjdErkegAnFdO1XlqtA62SJtgVYHdKu3uPxJHcMR/r35HwFBA==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.Configuration.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Configuration.targets",
+        "lib/net462/Microsoft.Extensions.Configuration.dll",
+        "lib/net462/Microsoft.Extensions.Configuration.xml",
+        "lib/net6.0/Microsoft.Extensions.Configuration.dll",
+        "lib/net6.0/Microsoft.Extensions.Configuration.xml",
+        "lib/net7.0/Microsoft.Extensions.Configuration.dll",
+        "lib/net7.0/Microsoft.Extensions.Configuration.xml",
+        "lib/net8.0/Microsoft.Extensions.Configuration.dll",
+        "lib/net8.0/Microsoft.Extensions.Configuration.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.xml",
+        "microsoft.extensions.configuration.8.0.0.nupkg.sha512",
+        "microsoft.extensions.configuration.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/8.0.0": {
+      "sha512": "3lE/iLSutpgX1CC0NOW70FJoGARRHbyKmG7dc0klnUZ9Dd9hS6N/POPWhKhMLCEuNN5nXEY5agmlFtH562vqhQ==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration.abstractions/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.Configuration.Abstractions.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Configuration.Abstractions.targets",
+        "lib/net462/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.Configuration.Abstractions.xml",
+        "lib/net6.0/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "lib/net6.0/Microsoft.Extensions.Configuration.Abstractions.xml",
+        "lib/net7.0/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "lib/net7.0/Microsoft.Extensions.Configuration.Abstractions.xml",
+        "lib/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "lib/net8.0/Microsoft.Extensions.Configuration.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.xml",
+        "microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+        "microsoft.extensions.configuration.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Configuration.Binder/8.0.2": {
+      "sha512": "7IQhGK+wjyGrNsPBjJcZwWAr+Wf6D4+TwOptUt77bWtgNkiV8tDEbhFS+dDamtQFZ2X7kWG9m71iZQRj2x3zgQ==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration.binder/8.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "analyzers/dotnet/cs/Microsoft.Extensions.Configuration.Binder.SourceGeneration.dll",
+        "analyzers/dotnet/cs/cs/Microsoft.Extensions.Configuration.Binder.SourceGeneration.resources.dll",
+        "analyzers/dotnet/cs/de/Microsoft.Extensions.Configuration.Binder.SourceGeneration.resources.dll",
+        "analyzers/dotnet/cs/es/Microsoft.Extensions.Configuration.Binder.SourceGeneration.resources.dll",
+        "analyzers/dotnet/cs/fr/Microsoft.Extensions.Configuration.Binder.SourceGeneration.resources.dll",
+        "analyzers/dotnet/cs/it/Microsoft.Extensions.Configuration.Binder.SourceGeneration.resources.dll",
+        "analyzers/dotnet/cs/ja/Microsoft.Extensions.Configuration.Binder.SourceGeneration.resources.dll",
+        "analyzers/dotnet/cs/ko/Microsoft.Extensions.Configuration.Binder.SourceGeneration.resources.dll",
+        "analyzers/dotnet/cs/pl/Microsoft.Extensions.Configuration.Binder.SourceGeneration.resources.dll",
+        "analyzers/dotnet/cs/pt-BR/Microsoft.Extensions.Configuration.Binder.SourceGeneration.resources.dll",
+        "analyzers/dotnet/cs/ru/Microsoft.Extensions.Configuration.Binder.SourceGeneration.resources.dll",
+        "analyzers/dotnet/cs/tr/Microsoft.Extensions.Configuration.Binder.SourceGeneration.resources.dll",
+        "analyzers/dotnet/cs/zh-Hans/Microsoft.Extensions.Configuration.Binder.SourceGeneration.resources.dll",
+        "analyzers/dotnet/cs/zh-Hant/Microsoft.Extensions.Configuration.Binder.SourceGeneration.resources.dll",
+        "buildTransitive/netstandard2.0/Microsoft.Extensions.Configuration.Binder.targets",
+        "lib/net462/Microsoft.Extensions.Configuration.Binder.dll",
+        "lib/net462/Microsoft.Extensions.Configuration.Binder.xml",
+        "lib/net6.0/Microsoft.Extensions.Configuration.Binder.dll",
+        "lib/net6.0/Microsoft.Extensions.Configuration.Binder.xml",
+        "lib/net7.0/Microsoft.Extensions.Configuration.Binder.dll",
+        "lib/net7.0/Microsoft.Extensions.Configuration.Binder.xml",
+        "lib/net8.0/Microsoft.Extensions.Configuration.Binder.dll",
+        "lib/net8.0/Microsoft.Extensions.Configuration.Binder.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.xml",
+        "microsoft.extensions.configuration.binder.8.0.2.nupkg.sha512",
+        "microsoft.extensions.configuration.binder.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Configuration.FileExtensions/8.0.1": {
+      "sha512": "EJzSNO9oaAXnTdtdNO6npPRsIIeZCBSNmdQ091VDO7fBiOtJAAeEq6dtrVXIi3ZyjC5XRSAtVvF8SzcneRHqKQ==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration.fileextensions/8.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.Configuration.FileExtensions.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Configuration.FileExtensions.targets",
+        "lib/net462/Microsoft.Extensions.Configuration.FileExtensions.dll",
+        "lib/net462/Microsoft.Extensions.Configuration.FileExtensions.xml",
+        "lib/net6.0/Microsoft.Extensions.Configuration.FileExtensions.dll",
+        "lib/net6.0/Microsoft.Extensions.Configuration.FileExtensions.xml",
+        "lib/net7.0/Microsoft.Extensions.Configuration.FileExtensions.dll",
+        "lib/net7.0/Microsoft.Extensions.Configuration.FileExtensions.xml",
+        "lib/net8.0/Microsoft.Extensions.Configuration.FileExtensions.dll",
+        "lib/net8.0/Microsoft.Extensions.Configuration.FileExtensions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.FileExtensions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.FileExtensions.xml",
+        "microsoft.extensions.configuration.fileextensions.8.0.1.nupkg.sha512",
+        "microsoft.extensions.configuration.fileextensions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Configuration.Json/8.0.1": {
+      "sha512": "L89DLNuimOghjV3tLx0ArFDwVEJD6+uGB3BMCMX01kaLzXkaXHb2021xOMl2QOxUxbdePKUZsUY7n2UUkycjRg==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration.json/8.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.Configuration.Json.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Configuration.Json.targets",
+        "lib/net462/Microsoft.Extensions.Configuration.Json.dll",
+        "lib/net462/Microsoft.Extensions.Configuration.Json.xml",
+        "lib/net6.0/Microsoft.Extensions.Configuration.Json.dll",
+        "lib/net6.0/Microsoft.Extensions.Configuration.Json.xml",
+        "lib/net7.0/Microsoft.Extensions.Configuration.Json.dll",
+        "lib/net7.0/Microsoft.Extensions.Configuration.Json.xml",
+        "lib/net8.0/Microsoft.Extensions.Configuration.Json.dll",
+        "lib/net8.0/Microsoft.Extensions.Configuration.Json.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Json.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Json.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.Configuration.Json.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.Configuration.Json.xml",
+        "microsoft.extensions.configuration.json.8.0.1.nupkg.sha512",
+        "microsoft.extensions.configuration.json.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection/8.0.1": {
+      "sha512": "BmANAnR5Xd4Oqw7yQ75xOAYODybZQRzdeNucg7kS5wWKd2PNnMdYtJ2Vciy0QLylRmv42DGl5+AFL9izA6F1Rw==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection/8.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.DependencyInjection.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.targets",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/net7.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/net7.0/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.xml",
+        "microsoft.extensions.dependencyinjection.8.0.1.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.2": {
+      "sha512": "3iE7UF7MQkCv1cxzCahz+Y/guQbTqieyxyaWKhrRO91itI9cOKO76OHeQDahqG4MmW5umr3CcCvGmK92lWNlbg==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/8.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Diagnostics/8.0.1": {
+      "sha512": "doVPCUUCY7c6LhBsEfiy3W1bvS7Mi6LkfQMS8nlC22jZWNxBv8VO8bdfeyvpYFst6Kxqk7HBC6lytmEoBssvSQ==",
+      "type": "package",
+      "path": "microsoft.extensions.diagnostics/8.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.Diagnostics.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Diagnostics.targets",
+        "lib/net462/Microsoft.Extensions.Diagnostics.dll",
+        "lib/net462/Microsoft.Extensions.Diagnostics.xml",
+        "lib/net6.0/Microsoft.Extensions.Diagnostics.dll",
+        "lib/net6.0/Microsoft.Extensions.Diagnostics.xml",
+        "lib/net7.0/Microsoft.Extensions.Diagnostics.dll",
+        "lib/net7.0/Microsoft.Extensions.Diagnostics.xml",
+        "lib/net8.0/Microsoft.Extensions.Diagnostics.dll",
+        "lib/net8.0/Microsoft.Extensions.Diagnostics.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Diagnostics.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Diagnostics.xml",
+        "microsoft.extensions.diagnostics.8.0.1.nupkg.sha512",
+        "microsoft.extensions.diagnostics.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Diagnostics.Abstractions/8.0.1": {
+      "sha512": "elH2vmwNmsXuKmUeMQ4YW9ldXiF+gSGDgg1vORksob5POnpaI6caj1Hu8zaYbEuibhqCoWg0YRWDazBY3zjBfg==",
+      "type": "package",
+      "path": "microsoft.extensions.diagnostics.abstractions/8.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.Diagnostics.Abstractions.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Diagnostics.Abstractions.targets",
+        "lib/net462/Microsoft.Extensions.Diagnostics.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.Diagnostics.Abstractions.xml",
+        "lib/net6.0/Microsoft.Extensions.Diagnostics.Abstractions.dll",
+        "lib/net6.0/Microsoft.Extensions.Diagnostics.Abstractions.xml",
+        "lib/net7.0/Microsoft.Extensions.Diagnostics.Abstractions.dll",
+        "lib/net7.0/Microsoft.Extensions.Diagnostics.Abstractions.xml",
+        "lib/net8.0/Microsoft.Extensions.Diagnostics.Abstractions.dll",
+        "lib/net8.0/Microsoft.Extensions.Diagnostics.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Diagnostics.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Diagnostics.Abstractions.xml",
+        "microsoft.extensions.diagnostics.abstractions.8.0.1.nupkg.sha512",
+        "microsoft.extensions.diagnostics.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.FileProviders.Abstractions/8.0.0": {
+      "sha512": "ZbaMlhJlpisjuWbvXr4LdAst/1XxH3vZ6A0BsgTphZ2L4PGuxRLz7Jr/S7mkAAnOn78Vu0fKhEgNF5JO3zfjqQ==",
+      "type": "package",
+      "path": "microsoft.extensions.fileproviders.abstractions/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.FileProviders.Abstractions.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.FileProviders.Abstractions.targets",
+        "lib/net462/Microsoft.Extensions.FileProviders.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.FileProviders.Abstractions.xml",
+        "lib/net6.0/Microsoft.Extensions.FileProviders.Abstractions.dll",
+        "lib/net6.0/Microsoft.Extensions.FileProviders.Abstractions.xml",
+        "lib/net8.0/Microsoft.Extensions.FileProviders.Abstractions.dll",
+        "lib/net8.0/Microsoft.Extensions.FileProviders.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.xml",
+        "microsoft.extensions.fileproviders.abstractions.8.0.0.nupkg.sha512",
+        "microsoft.extensions.fileproviders.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.FileProviders.Physical/8.0.0": {
+      "sha512": "UboiXxpPUpwulHvIAVE36Knq0VSHaAmfrFkegLyBZeaADuKezJ/AIXYAW8F5GBlGk/VaibN2k/Zn1ca8YAfVdA==",
+      "type": "package",
+      "path": "microsoft.extensions.fileproviders.physical/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.FileProviders.Physical.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.FileProviders.Physical.targets",
+        "lib/net462/Microsoft.Extensions.FileProviders.Physical.dll",
+        "lib/net462/Microsoft.Extensions.FileProviders.Physical.xml",
+        "lib/net6.0/Microsoft.Extensions.FileProviders.Physical.dll",
+        "lib/net6.0/Microsoft.Extensions.FileProviders.Physical.xml",
+        "lib/net7.0/Microsoft.Extensions.FileProviders.Physical.dll",
+        "lib/net7.0/Microsoft.Extensions.FileProviders.Physical.xml",
+        "lib/net8.0/Microsoft.Extensions.FileProviders.Physical.dll",
+        "lib/net8.0/Microsoft.Extensions.FileProviders.Physical.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Physical.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Physical.xml",
+        "microsoft.extensions.fileproviders.physical.8.0.0.nupkg.sha512",
+        "microsoft.extensions.fileproviders.physical.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.FileSystemGlobbing/8.0.0": {
+      "sha512": "OK+670i7esqlQrPjdIKRbsyMCe9g5kSLpRRQGSr4Q58AOYEe/hCnfLZprh7viNisSUUQZmMrbbuDaIrP+V1ebQ==",
+      "type": "package",
+      "path": "microsoft.extensions.filesystemglobbing/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.FileSystemGlobbing.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.FileSystemGlobbing.targets",
+        "lib/net462/Microsoft.Extensions.FileSystemGlobbing.dll",
+        "lib/net462/Microsoft.Extensions.FileSystemGlobbing.xml",
+        "lib/net6.0/Microsoft.Extensions.FileSystemGlobbing.dll",
+        "lib/net6.0/Microsoft.Extensions.FileSystemGlobbing.xml",
+        "lib/net7.0/Microsoft.Extensions.FileSystemGlobbing.dll",
+        "lib/net7.0/Microsoft.Extensions.FileSystemGlobbing.xml",
+        "lib/net8.0/Microsoft.Extensions.FileSystemGlobbing.dll",
+        "lib/net8.0/Microsoft.Extensions.FileSystemGlobbing.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.xml",
+        "microsoft.extensions.filesystemglobbing.8.0.0.nupkg.sha512",
+        "microsoft.extensions.filesystemglobbing.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Http/8.0.1": {
+      "sha512": "kDYeKJUzh0qeg/AI+nSr3ffthmXYQTEb0nS9qRC7YhSbbuN4M4NPbaB77AJwtkTnCV9XZ7qYj3dkZaNcyl73EA==",
+      "type": "package",
+      "path": "microsoft.extensions.http/8.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.Http.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Http.targets",
+        "lib/net462/Microsoft.Extensions.Http.dll",
+        "lib/net462/Microsoft.Extensions.Http.xml",
+        "lib/net6.0/Microsoft.Extensions.Http.dll",
+        "lib/net6.0/Microsoft.Extensions.Http.xml",
+        "lib/net7.0/Microsoft.Extensions.Http.dll",
+        "lib/net7.0/Microsoft.Extensions.Http.xml",
+        "lib/net8.0/Microsoft.Extensions.Http.dll",
+        "lib/net8.0/Microsoft.Extensions.Http.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Http.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Http.xml",
+        "microsoft.extensions.http.8.0.1.nupkg.sha512",
+        "microsoft.extensions.http.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Localization/8.0.11": {
+      "sha512": "yTb325+mCuoUBBMEztLv48kK/I/99TfVPh4V5kW8Qw+45mqAJs9bndOYxvjJvJxKVuwgzOYiWC/a34fr4pJ8IA==",
+      "type": "package",
+      "path": "microsoft.extensions.localization/8.0.11",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net462/Microsoft.Extensions.Localization.dll",
+        "lib/net462/Microsoft.Extensions.Localization.xml",
+        "lib/net8.0/Microsoft.Extensions.Localization.dll",
+        "lib/net8.0/Microsoft.Extensions.Localization.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Localization.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Localization.xml",
+        "microsoft.extensions.localization.8.0.11.nupkg.sha512",
+        "microsoft.extensions.localization.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Localization.Abstractions/8.0.11": {
+      "sha512": "qyfVEOJ8PsYrwC6kTQFSTm4+FrpOAz3OfPXvRPfs7j34V+yHMuVUgIiP5yjrYHcpNbXTtCzoQc/ZdcbpdeX/Xg==",
+      "type": "package",
+      "path": "microsoft.extensions.localization.abstractions/8.0.11",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net462/Microsoft.Extensions.Localization.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.Localization.Abstractions.xml",
+        "lib/net8.0/Microsoft.Extensions.Localization.Abstractions.dll",
+        "lib/net8.0/Microsoft.Extensions.Localization.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Localization.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Localization.Abstractions.xml",
+        "microsoft.extensions.localization.abstractions.8.0.11.nupkg.sha512",
+        "microsoft.extensions.localization.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Logging/8.0.1": {
+      "sha512": "4x+pzsQEbqxhNf1QYRr5TDkLP9UsLT3A6MdRKDDEgrW7h1ljiEPgTNhKYUhNCCAaVpQECVQ+onA91PTPnIp6Lw==",
+      "type": "package",
+      "path": "microsoft.extensions.logging/8.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.Logging.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Logging.targets",
+        "lib/net462/Microsoft.Extensions.Logging.dll",
+        "lib/net462/Microsoft.Extensions.Logging.xml",
+        "lib/net6.0/Microsoft.Extensions.Logging.dll",
+        "lib/net6.0/Microsoft.Extensions.Logging.xml",
+        "lib/net7.0/Microsoft.Extensions.Logging.dll",
+        "lib/net7.0/Microsoft.Extensions.Logging.xml",
+        "lib/net8.0/Microsoft.Extensions.Logging.dll",
+        "lib/net8.0/Microsoft.Extensions.Logging.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.Logging.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.Logging.xml",
+        "microsoft.extensions.logging.8.0.1.nupkg.sha512",
+        "microsoft.extensions.logging.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Logging.Abstractions/8.0.2": {
+      "sha512": "nroMDjS7hNBPtkZqVBbSiQaQjWRDxITI8Y7XnDs97rqG3EbzVTNLZQf7bIeUJcaHOV8bca47s1Uxq94+2oGdxA==",
+      "type": "package",
+      "path": "microsoft.extensions.logging.abstractions/8.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "analyzers/dotnet/roslyn3.11/cs/Microsoft.Extensions.Logging.Generators.dll",
+        "analyzers/dotnet/roslyn3.11/cs/cs/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/de/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/es/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/fr/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/it/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/ja/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/ko/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/pl/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/pt-BR/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/ru/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/tr/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/zh-Hans/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/zh-Hant/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/Microsoft.Extensions.Logging.Generators.dll",
+        "analyzers/dotnet/roslyn4.0/cs/cs/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/de/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/es/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/fr/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/it/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/ja/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/ko/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/pl/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/pt-BR/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/ru/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/tr/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/zh-Hans/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/zh-Hant/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/Microsoft.Extensions.Logging.Generators.dll",
+        "analyzers/dotnet/roslyn4.4/cs/cs/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/de/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/es/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/fr/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/it/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/ja/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/ko/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/pl/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/pt-BR/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/ru/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/tr/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/zh-Hans/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/zh-Hant/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "buildTransitive/net461/Microsoft.Extensions.Logging.Abstractions.targets",
+        "buildTransitive/net462/Microsoft.Extensions.Logging.Abstractions.targets",
+        "buildTransitive/net6.0/Microsoft.Extensions.Logging.Abstractions.targets",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Logging.Abstractions.targets",
+        "buildTransitive/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.targets",
+        "lib/net462/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.Logging.Abstractions.xml",
+        "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.xml",
+        "lib/net7.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/net7.0/Microsoft.Extensions.Logging.Abstractions.xml",
+        "lib/net8.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/net8.0/Microsoft.Extensions.Logging.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.xml",
+        "microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
+        "microsoft.extensions.logging.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Options/8.0.2": {
+      "sha512": "dWGKvhFybsaZpGmzkGCbNNwBD1rVlWzrZKANLW/CcbFJpCEceMCGzT7zZwHOGBCbwM0SzBuceMj5HN1LKV1QqA==",
+      "type": "package",
+      "path": "microsoft.extensions.options/8.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "analyzers/dotnet/roslyn4.4/cs/Microsoft.Extensions.Options.SourceGeneration.dll",
+        "analyzers/dotnet/roslyn4.4/cs/cs/Microsoft.Extensions.Options.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/de/Microsoft.Extensions.Options.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/es/Microsoft.Extensions.Options.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/fr/Microsoft.Extensions.Options.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/it/Microsoft.Extensions.Options.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/ja/Microsoft.Extensions.Options.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/ko/Microsoft.Extensions.Options.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/pl/Microsoft.Extensions.Options.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/pt-BR/Microsoft.Extensions.Options.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/ru/Microsoft.Extensions.Options.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/tr/Microsoft.Extensions.Options.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/zh-Hans/Microsoft.Extensions.Options.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/zh-Hant/Microsoft.Extensions.Options.SourceGeneration.resources.dll",
+        "buildTransitive/net461/Microsoft.Extensions.Options.targets",
+        "buildTransitive/net462/Microsoft.Extensions.Options.targets",
+        "buildTransitive/net6.0/Microsoft.Extensions.Options.targets",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Options.targets",
+        "buildTransitive/netstandard2.0/Microsoft.Extensions.Options.targets",
+        "lib/net462/Microsoft.Extensions.Options.dll",
+        "lib/net462/Microsoft.Extensions.Options.xml",
+        "lib/net6.0/Microsoft.Extensions.Options.dll",
+        "lib/net6.0/Microsoft.Extensions.Options.xml",
+        "lib/net7.0/Microsoft.Extensions.Options.dll",
+        "lib/net7.0/Microsoft.Extensions.Options.xml",
+        "lib/net8.0/Microsoft.Extensions.Options.dll",
+        "lib/net8.0/Microsoft.Extensions.Options.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.Options.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.Options.xml",
+        "microsoft.extensions.options.8.0.2.nupkg.sha512",
+        "microsoft.extensions.options.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Options.ConfigurationExtensions/8.0.0": {
+      "sha512": "0f4DMRqEd50zQh+UyJc+/HiBsZ3vhAQALgdkcQEalSH1L2isdC7Yj54M3cyo5e+BeO5fcBQ7Dxly8XiBBcvRgw==",
+      "type": "package",
+      "path": "microsoft.extensions.options.configurationextensions/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.Options.ConfigurationExtensions.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Options.ConfigurationExtensions.targets",
+        "lib/net462/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+        "lib/net462/Microsoft.Extensions.Options.ConfigurationExtensions.xml",
+        "lib/net6.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+        "lib/net6.0/Microsoft.Extensions.Options.ConfigurationExtensions.xml",
+        "lib/net7.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+        "lib/net7.0/Microsoft.Extensions.Options.ConfigurationExtensions.xml",
+        "lib/net8.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+        "lib/net8.0/Microsoft.Extensions.Options.ConfigurationExtensions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.ConfigurationExtensions.xml",
+        "microsoft.extensions.options.configurationextensions.8.0.0.nupkg.sha512",
+        "microsoft.extensions.options.configurationextensions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Primitives/8.0.0": {
+      "sha512": "bXJEZrW9ny8vjMF1JV253WeLhpEVzFo1lyaZu1vQ4ZxWUlVvknZ/+ftFgVheLubb4eZPSwwxBeqS1JkCOjxd8g==",
+      "type": "package",
+      "path": "microsoft.extensions.primitives/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.Primitives.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Primitives.targets",
+        "lib/net462/Microsoft.Extensions.Primitives.dll",
+        "lib/net462/Microsoft.Extensions.Primitives.xml",
+        "lib/net6.0/Microsoft.Extensions.Primitives.dll",
+        "lib/net6.0/Microsoft.Extensions.Primitives.xml",
+        "lib/net7.0/Microsoft.Extensions.Primitives.dll",
+        "lib/net7.0/Microsoft.Extensions.Primitives.xml",
+        "lib/net8.0/Microsoft.Extensions.Primitives.dll",
+        "lib/net8.0/Microsoft.Extensions.Primitives.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.xml",
+        "microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+        "microsoft.extensions.primitives.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.JSInterop/8.0.11": {
+      "sha512": "UYSbAkNGTWVUne3I04/9IRQel3Bt1Ww6Y5cjvZEZ89rWhBD1yWu7YDotvQS62V6mgSfFaXXPGrCUm1VG824QXw==",
+      "type": "package",
+      "path": "microsoft.jsinterop/8.0.11",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net8.0/Microsoft.JSInterop.dll",
+        "lib/net8.0/Microsoft.JSInterop.xml",
+        "microsoft.jsinterop.8.0.11.nupkg.sha512",
+        "microsoft.jsinterop.nuspec"
+      ]
+    },
+    "Microsoft.JSInterop.WebAssembly/8.0.11": {
+      "sha512": "eB6YYFdA2DnmR8W1WO9of4hBSaRTsmxke7FVbHjzjhYu/1XgMZ9FZq6sY5OjE7rnkGN3XYHXXWB4T49Y8DAthA==",
+      "type": "package",
+      "path": "microsoft.jsinterop.webassembly/8.0.11",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.txt",
+        "lib/net8.0/Microsoft.JSInterop.WebAssembly.dll",
+        "lib/net8.0/Microsoft.JSInterop.WebAssembly.xml",
+        "microsoft.jsinterop.webassembly.8.0.11.nupkg.sha512",
+        "microsoft.jsinterop.webassembly.nuspec"
+      ]
+    },
+    "SixLabors.ImageSharp/3.1.6": {
+      "sha512": "dHQ5jugF9v+5/LCVHCWVzaaIL6WOehqJy6eju/0VFYFPEj2WtqkGPoEV9EVQP83dHsdoqYaTuWpZdwAd37UwfA==",
+      "type": "package",
+      "path": "sixlabors.imagesharp/3.1.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "build/SixLabors.ImageSharp.props",
+        "lib/net6.0/SixLabors.ImageSharp.dll",
+        "lib/net6.0/SixLabors.ImageSharp.xml",
+        "sixlabors.imagesharp.128.png",
+        "sixlabors.imagesharp.3.1.6.nupkg.sha512",
+        "sixlabors.imagesharp.nuspec"
+      ]
+    },
+    "System.IO.Pipelines/8.0.0": {
+      "sha512": "FHNOatmUq0sqJOkTx+UF/9YK1f180cnW5FVqnQMvYUN0elp6wFzbtPSiqbo1/ru8ICp43JM1i7kKkk6GsNGHlA==",
+      "type": "package",
+      "path": "system.io.pipelines/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.IO.Pipelines.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.IO.Pipelines.targets",
+        "lib/net462/System.IO.Pipelines.dll",
+        "lib/net462/System.IO.Pipelines.xml",
+        "lib/net6.0/System.IO.Pipelines.dll",
+        "lib/net6.0/System.IO.Pipelines.xml",
+        "lib/net7.0/System.IO.Pipelines.dll",
+        "lib/net7.0/System.IO.Pipelines.xml",
+        "lib/net8.0/System.IO.Pipelines.dll",
+        "lib/net8.0/System.IO.Pipelines.xml",
+        "lib/netstandard2.0/System.IO.Pipelines.dll",
+        "lib/netstandard2.0/System.IO.Pipelines.xml",
+        "system.io.pipelines.8.0.0.nupkg.sha512",
+        "system.io.pipelines.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "UAParser/3.1.47": {
+      "sha512": "I68Jl/Vs5RQZdz9BbmYtnXgujg0jVd61LhKbyNZOCm9lBxZFGxLbiQo6yFj21VYi7DzPvEvrVOmeC6v41AoLfw==",
+      "type": "package",
+      "path": "uaparser/3.1.47",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/UAParser.dll",
+        "lib/net20/UAParser.xml",
+        "lib/net35/UAParser.dll",
+        "lib/net35/UAParser.xml",
+        "lib/net40/UAParser.dll",
+        "lib/net40/UAParser.xml",
+        "lib/net45/UAParser.dll",
+        "lib/net45/UAParser.xml",
+        "lib/netcoreapp2.0/UAParser.dll",
+        "lib/netcoreapp2.0/UAParser.xml",
+        "lib/netstandard1.0/UAParser.dll",
+        "lib/netstandard1.0/UAParser.xml",
+        "lib/netstandard1.3/UAParser.dll",
+        "lib/netstandard1.3/UAParser.xml",
+        "lib/netstandard1.6/UAParser.dll",
+        "lib/netstandard1.6/UAParser.xml",
+        "uaparser.3.1.47.nupkg.sha512",
+        "uaparser.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "BootstrapBlazor >= 9.1.5",
+      "BootstrapBlazor.PdfReader >= 9.0.0",
+      "Microsoft.AspNetCore.Components.Web >= 8.0.11",
+      "Microsoft.AspNetCore.Components.WebAssembly >= 8.0.11",
+      "SixLabors.ImageSharp >= 3.1.6"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\13010\\.nuget\\packages\\": {},
+    "E:\\visual studio\\共享文具和工具\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\c#\\Blazor\\Blzaor with Python\\BlazorDisplay\\BlazorDisplay\\BlazorDisplay.csproj",
+      "projectName": "BlazorDisplay",
+      "projectPath": "E:\\c#\\Blazor\\Blzaor with Python\\BlazorDisplay\\BlazorDisplay\\BlazorDisplay.csproj",
+      "packagesPath": "C:\\Users\\13010\\.nuget\\packages\\",
+      "outputPath": "E:\\c#\\Blazor\\Blzaor with Python\\BlazorDisplay\\BlazorDisplay\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "E:\\visual studio\\共享文具和工具\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\13010\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "BootstrapBlazor": {
+            "target": "Package",
+            "version": "[9.1.5, )"
+          },
+          "BootstrapBlazor.PdfReader": {
+            "target": "Package",
+            "version": "[9.0.0, )"
+          },
+          "Microsoft.AspNetCore.Components.Web": {
+            "target": "Package",
+            "version": "[8.0.11, )"
+          },
+          "Microsoft.AspNetCore.Components.WebAssembly": {
+            "target": "Package",
+            "version": "[8.0.11, )"
+          },
+          "SixLabors.ImageSharp": {
+            "target": "Package",
+            "version": "[3.1.6, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

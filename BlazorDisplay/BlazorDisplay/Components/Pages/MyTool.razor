@@ -1,0 +1,151 @@
+﻿@page "/my_tool"
+@inject IHttpClientFactory HttpClientFactory
+
+<PageTitle>批量重命名文件</PageTitle>
+<h3>批量重命名文件</h3> <EditForm Model="fileRenameModel" OnValidSubmit="HandleValidSubmit">
+    <DataAnnotationsValidator /> <ValidationSummary />
+    <div>
+        <label>文件夹路径:</label>
+        <InputText @bind-Value="fileRenameModel.FolderPath" />
+    </div>
+    <div>
+        <label>字符串 A:</label>
+        <InputText @bind-Value="fileRenameModel.StringA" />
+    </div>
+    <div>
+        <label>数字 B:</label>
+        <InputNumber @bind-Value="fileRenameModel.NumberB" />
+    </div>
+    <div>
+        <label>数字 C:</label>
+        <InputNumber @bind-Value="fileRenameModel.NumberC" />
+    </div>
+    <button type="submit">重命名文件</button>
+</EditForm>
+@if (message != null)
+{
+    <p>@message</p>
+}
+<HR>
+<h3>随机数生成器</h3>
+
+<div>
+    <label>数字类型:</label>
+    <select @bind="requestData.NumberType">
+        <option value="integer">整数</option>
+        <option value="float">浮点数</option>
+    </select>
+</div>
+
+<div>
+    <label>生成数量:</label>
+    <input type="number" @bind="requestData.Quantity" min="1" />
+</div>
+
+<div>
+    <label>随机数最小值:</label>
+    <input type="number" @bind="requestData.MinValue" />
+</div>
+
+<div>
+    <label>随机数最大值:</label>
+    <input type="number" @bind="requestData.MaxValue" />
+</div>
+
+<div>
+    <label>排序方式:</label>
+    <select @bind="requestData.SortOrder">
+        <option value="none">无序</option>
+        <option value="asc">升序</option>
+        <option value="desc">降序</option>
+    </select>
+</div>
+
+<button @onclick="GenerateNumbers">开始</button>
+
+<h4>结果:</h4>
+<textarea rows="10" cols="50" readonly>@my_result</textarea>
+@code {
+
+    private FileRenameModel fileRenameModel = new FileRenameModel();
+    private GenerateRequestData requestData = new GenerateRequestData();
+    private string message;
+    private string numberType = "integer";
+    private string my_result;
+    public class FileRenameModel
+    {
+        public string FolderPath { get; set; }
+        public string StringA { get; set; }
+        public int NumberB { get; set; }
+        public int NumberC { get; set; }
+    }
+    public class GenerateRequestData
+    {
+        public string NumberType = "integer";
+        public int Quantity = 10;
+        public double MinValue = 0;
+        public double MaxValue = 100;
+        public string SortOrder = "none";
+    };
+
+    public class SuccessResponse
+    {
+        public string Message { get; set; }
+    }
+
+    public class ErrorResponse
+    {
+        public string Error { get; set; }
+    }
+    private async Task GenerateNumbers()
+    {
+        // 验证输入
+        if (requestData.Quantity <= 0)
+        {
+            my_result = "生成数量必须大于0。";
+            return;
+        }
+
+        if (requestData.MinValue >= requestData.MaxValue)
+        {
+            my_result = "最小值必须小于最大值。";
+            return;
+        }
+        System.Console.WriteLine(requestData.NumberType);
+        var client = HttpClientFactory.CreateClient("app");
+        var response = await client.PostAsJsonAsync("/api/Tool2", new { requestData.NumberType, requestData.Quantity, requestData.MinValue, requestData.MaxValue, requestData.SortOrder });
+        if (response.IsSuccessStatusCode)
+        {
+            my_result = await response.Content.ReadAsStringAsync();
+        }
+        else
+        {
+            var result = await response.Content.ReadFromJsonAsync<Dictionary<string, string>>();
+            my_result = result["error"];
+        }
+    }
+
+    private async Task HandleValidSubmit()
+    {
+        try
+        {
+            var client = HttpClientFactory.CreateClient("app");
+            var response = await client.PostAsJsonAsync("/api/Tool1", fileRenameModel);
+            if (response.IsSuccessStatusCode)
+            {
+                var result = await response.Content.ReadFromJsonAsync<SuccessResponse>();
+                message = result.Message;
+            }
+            else
+            {
+                var error = await response.Content.ReadFromJsonAsync<ErrorResponse>();
+                message = $"错误: {error.Error}";
+            }
+        }
+        catch (Exception ex)
+        {
+            message = $"请求失败: {ex.Message}";
+        }
+    }
+
+}

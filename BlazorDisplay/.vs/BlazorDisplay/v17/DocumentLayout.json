@@ -1,0 +1,335 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\c#\\Blazor\\Blzaor with Python\\BlazorDisplay\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C14D5A-3C53-487B-9F3D-9B7BA81A4D04}|BlazorDisplay\\BlazorDisplay.csproj|e:\\c#\\blazor\\blzaor with python\\blazordisplay\\blazordisplay\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B5C14D5A-3C53-487B-9F3D-9B7BA81A4D04}|BlazorDisplay\\BlazorDisplay.csproj|solutionrelative:blazordisplay\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C14D5A-3C53-487B-9F3D-9B7BA81A4D04}|BlazorDisplay\\BlazorDisplay.csproj|e:\\c#\\blazor\\blzaor with python\\blazordisplay\\blazordisplay\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B5C14D5A-3C53-487B-9F3D-9B7BA81A4D04}|BlazorDisplay\\BlazorDisplay.csproj|solutionrelative:blazordisplay\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C14D5A-3C53-487B-9F3D-9B7BA81A4D04}|BlazorDisplay\\BlazorDisplay.csproj|e:\\c#\\blazor\\blzaor with python\\blazordisplay\\blazordisplay\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B5C14D5A-3C53-487B-9F3D-9B7BA81A4D04}|BlazorDisplay\\BlazorDisplay.csproj|solutionrelative:blazordisplay\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C14D5A-3C53-487B-9F3D-9B7BA81A4D04}|BlazorDisplay\\BlazorDisplay.csproj|e:\\c#\\blazor\\blzaor with python\\blazordisplay\\blazordisplay\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5C14D5A-3C53-487B-9F3D-9B7BA81A4D04}|BlazorDisplay\\BlazorDisplay.csproj|solutionrelative:blazordisplay\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C14D5A-3C53-487B-9F3D-9B7BA81A4D04}|BlazorDisplay\\BlazorDisplay.csproj|e:\\c#\\blazor\\blzaor with python\\blazordisplay\\blazordisplay\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5C14D5A-3C53-487B-9F3D-9B7BA81A4D04}|BlazorDisplay\\BlazorDisplay.csproj|solutionrelative:blazordisplay\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C14D5A-3C53-487B-9F3D-9B7BA81A4D04}|BlazorDisplay\\BlazorDisplay.csproj|e:\\c#\\blazor\\blzaor with python\\blazordisplay\\blazordisplay\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5C14D5A-3C53-487B-9F3D-9B7BA81A4D04}|BlazorDisplay\\BlazorDisplay.csproj|solutionrelative:blazordisplay\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C14D5A-3C53-487B-9F3D-9B7BA81A4D04}|BlazorDisplay\\BlazorDisplay.csproj|e:\\c#\\blazor\\blzaor with python\\blazordisplay\\blazordisplay\\components\\pages\\mycloud.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5C14D5A-3C53-487B-9F3D-9B7BA81A4D04}|BlazorDisplay\\BlazorDisplay.csproj|solutionrelative:blazordisplay\\components\\pages\\mycloud.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C14D5A-3C53-487B-9F3D-9B7BA81A4D04}|BlazorDisplay\\BlazorDisplay.csproj|e:\\c#\\blazor\\blzaor with python\\blazordisplay\\blazordisplay\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5C14D5A-3C53-487B-9F3D-9B7BA81A4D04}|BlazorDisplay\\BlazorDisplay.csproj|solutionrelative:blazordisplay\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C14D5A-3C53-487B-9F3D-9B7BA81A4D04}|BlazorDisplay\\BlazorDisplay.csproj|e:\\c#\\blazor\\blzaor with python\\blazordisplay\\blazordisplay\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5C14D5A-3C53-487B-9F3D-9B7BA81A4D04}|BlazorDisplay\\BlazorDisplay.csproj|solutionrelative:blazordisplay\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C14D5A-3C53-487B-9F3D-9B7BA81A4D04}|BlazorDisplay\\BlazorDisplay.csproj|e:\\c#\\blazor\\blzaor with python\\blazordisplay\\blazordisplay\\components\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5C14D5A-3C53-487B-9F3D-9B7BA81A4D04}|BlazorDisplay\\BlazorDisplay.csproj|solutionrelative:blazordisplay\\components\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C14D5A-3C53-487B-9F3D-9B7BA81A4D04}|BlazorDisplay\\BlazorDisplay.csproj|e:\\c#\\blazor\\blzaor with python\\blazordisplay\\blazordisplay\\components\\pages\\mytool.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5C14D5A-3C53-487B-9F3D-9B7BA81A4D04}|BlazorDisplay\\BlazorDisplay.csproj|solutionrelative:blazordisplay\\components\\pages\\mytool.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C14D5A-3C53-487B-9F3D-9B7BA81A4D04}|BlazorDisplay\\BlazorDisplay.csproj|e:\\c#\\blazor\\blzaor with python\\blazordisplay\\blazordisplay\\components\\pages\\mypdf.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5C14D5A-3C53-487B-9F3D-9B7BA81A4D04}|BlazorDisplay\\BlazorDisplay.csproj|solutionrelative:blazordisplay\\components\\pages\\mypdf.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C14D5A-3C53-487B-9F3D-9B7BA81A4D04}|BlazorDisplay\\BlazorDisplay.csproj|e:\\c#\\blazor\\blzaor with python\\blazordisplay\\blazordisplay\\components\\pages\\mytts.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5C14D5A-3C53-487B-9F3D-9B7BA81A4D04}|BlazorDisplay\\BlazorDisplay.csproj|solutionrelative:blazordisplay\\components\\pages\\mytts.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C14D5A-3C53-487B-9F3D-9B7BA81A4D04}|BlazorDisplay\\BlazorDisplay.csproj|e:\\c#\\blazor\\blzaor with python\\blazordisplay\\blazordisplay\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B5C14D5A-3C53-487B-9F3D-9B7BA81A4D04}|BlazorDisplay\\BlazorDisplay.csproj|solutionrelative:blazordisplay\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C14D5A-3C53-487B-9F3D-9B7BA81A4D04}|BlazorDisplay\\BlazorDisplay.csproj|e:\\c#\\blazor\\blzaor with python\\blazordisplay\\blazordisplay\\wwwroot\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B5C14D5A-3C53-487B-9F3D-9B7BA81A4D04}|BlazorDisplay\\BlazorDisplay.csproj|solutionrelative:blazordisplay\\wwwroot\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C14D5A-3C53-487B-9F3D-9B7BA81A4D04}|BlazorDisplay\\BlazorDisplay.csproj|e:\\c#\\blazor\\blzaor with python\\blazordisplay\\blazordisplay\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5C14D5A-3C53-487B-9F3D-9B7BA81A4D04}|BlazorDisplay\\BlazorDisplay.csproj|solutionrelative:blazordisplay\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C14D5A-3C53-487B-9F3D-9B7BA81A4D04}|BlazorDisplay\\BlazorDisplay.csproj|e:\\c#\\blazor\\blzaor with python\\blazordisplay\\blazordisplay\\components\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B5C14D5A-3C53-487B-9F3D-9B7BA81A4D04}|BlazorDisplay\\BlazorDisplay.csproj|solutionrelative:blazordisplay\\components\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C14D5A-3C53-487B-9F3D-9B7BA81A4D04}|BlazorDisplay\\BlazorDisplay.csproj|e:\\c#\\blazor\\blzaor with python\\blazordisplay\\blazordisplay\\components\\layout\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B5C14D5A-3C53-487B-9F3D-9B7BA81A4D04}|BlazorDisplay\\BlazorDisplay.csproj|solutionrelative:blazordisplay\\components\\layout\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C14D5A-3C53-487B-9F3D-9B7BA81A4D04}|BlazorDisplay\\BlazorDisplay.csproj|e:\\c#\\blazor\\blzaor with python\\blazordisplay\\blazordisplay\\eventdispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5C14D5A-3C53-487B-9F3D-9B7BA81A4D04}|BlazorDisplay\\BlazorDisplay.csproj|solutionrelative:blazordisplay\\eventdispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 87,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MyPdf.razor",
+              "DocumentMoniker": "E:\\c#\\Blazor\\Blzaor with Python\\BlazorDisplay\\BlazorDisplay\\Components\\Pages\\MyPdf.razor",
+              "RelativeDocumentMoniker": "BlazorDisplay\\Components\\Pages\\MyPdf.razor",
+              "ToolTip": "E:\\c#\\Blazor\\Blzaor with Python\\BlazorDisplay\\BlazorDisplay\\Components\\Pages\\MyPdf.razor",
+              "RelativeToolTip": "BlazorDisplay\\Components\\Pages\\MyPdf.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-17T13:43:44.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Error.razor",
+              "DocumentMoniker": "E:\\c#\\Blazor\\Blzaor with Python\\BlazorDisplay\\BlazorDisplay\\Components\\Pages\\Error.razor",
+              "RelativeDocumentMoniker": "BlazorDisplay\\Components\\Pages\\Error.razor",
+              "ToolTip": "E:\\c#\\Blazor\\Blzaor with Python\\BlazorDisplay\\BlazorDisplay\\Components\\Pages\\Error.razor",
+              "RelativeToolTip": "BlazorDisplay\\Components\\Pages\\Error.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-21T09:16:24.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.razor",
+              "DocumentMoniker": "E:\\c#\\Blazor\\Blzaor with Python\\BlazorDisplay\\BlazorDisplay\\Components\\App.razor",
+              "RelativeDocumentMoniker": "BlazorDisplay\\Components\\App.razor",
+              "ToolTip": "E:\\c#\\Blazor\\Blzaor with Python\\BlazorDisplay\\BlazorDisplay\\Components\\App.razor",
+              "RelativeToolTip": "BlazorDisplay\\Components\\App.razor",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-19T11:49:05.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\c#\\Blazor\\Blzaor with Python\\BlazorDisplay\\BlazorDisplay\\Program.cs",
+              "RelativeDocumentMoniker": "BlazorDisplay\\Program.cs",
+              "ToolTip": "E:\\c#\\Blazor\\Blzaor with Python\\BlazorDisplay\\BlazorDisplay\\Program.cs",
+              "RelativeToolTip": "BlazorDisplay\\Program.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAAAC0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T06:26:37.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\c#\\Blazor\\Blzaor with Python\\BlazorDisplay\\BlazorDisplay\\appsettings.json",
+              "RelativeDocumentMoniker": "BlazorDisplay\\appsettings.json",
+              "ToolTip": "E:\\c#\\Blazor\\Blzaor with Python\\BlazorDisplay\\BlazorDisplay\\appsettings.json",
+              "RelativeToolTip": "BlazorDisplay\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-21T06:38:08.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "E:\\c#\\Blazor\\Blzaor with Python\\BlazorDisplay\\BlazorDisplay\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "BlazorDisplay\\appsettings.Development.json",
+              "ToolTip": "E:\\c#\\Blazor\\Blzaor with Python\\BlazorDisplay\\BlazorDisplay\\appsettings.Development.json",
+              "RelativeToolTip": "BlazorDisplay\\appsettings.Development.json",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-21T06:38:10.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "E:\\c#\\Blazor\\Blzaor with Python\\BlazorDisplay\\BlazorDisplay\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "BlazorDisplay\\Properties\\launchSettings.json",
+              "ToolTip": "E:\\c#\\Blazor\\Blzaor with Python\\BlazorDisplay\\BlazorDisplay\\Properties\\launchSettings.json",
+              "RelativeToolTip": "BlazorDisplay\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABgAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-21T06:58:53.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "E:\\c#\\Blazor\\Blzaor with Python\\BlazorDisplay\\BlazorDisplay\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "BlazorDisplay\\Components\\_Imports.razor",
+              "ToolTip": "E:\\c#\\Blazor\\Blzaor with Python\\BlazorDisplay\\BlazorDisplay\\Components\\_Imports.razor",
+              "RelativeToolTip": "BlazorDisplay\\Components\\_Imports.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-17T13:46:52.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MyTTS.razor",
+              "DocumentMoniker": "E:\\c#\\Blazor\\Blzaor with Python\\BlazorDisplay\\BlazorDisplay\\Components\\Pages\\MyTTS.razor",
+              "RelativeDocumentMoniker": "BlazorDisplay\\Components\\Pages\\MyTTS.razor",
+              "ToolTip": "E:\\c#\\Blazor\\Blzaor with Python\\BlazorDisplay\\BlazorDisplay\\Components\\Pages\\MyTTS.razor",
+              "RelativeToolTip": "BlazorDisplay\\Components\\Pages\\MyTTS.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-19T06:46:09.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MyTool.razor",
+              "DocumentMoniker": "E:\\c#\\Blazor\\Blzaor with Python\\BlazorDisplay\\BlazorDisplay\\Components\\Pages\\MyTool.razor",
+              "RelativeDocumentMoniker": "BlazorDisplay\\Components\\Pages\\MyTool.razor",
+              "ToolTip": "E:\\c#\\Blazor\\Blzaor with Python\\BlazorDisplay\\BlazorDisplay\\Components\\Pages\\MyTool.razor",
+              "RelativeToolTip": "BlazorDisplay\\Components\\Pages\\MyTool.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-19T06:46:07.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "E:\\c#\\Blazor\\Blzaor with Python\\BlazorDisplay\\BlazorDisplay\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "BlazorDisplay\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "E:\\c#\\Blazor\\Blzaor with Python\\BlazorDisplay\\BlazorDisplay\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "BlazorDisplay\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T14:10:30.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MyCloud.razor",
+              "DocumentMoniker": "E:\\c#\\Blazor\\Blzaor with Python\\BlazorDisplay\\BlazorDisplay\\Components\\Pages\\MyCloud.razor",
+              "RelativeDocumentMoniker": "BlazorDisplay\\Components\\Pages\\MyCloud.razor",
+              "ToolTip": "E:\\c#\\Blazor\\Blzaor with Python\\BlazorDisplay\\BlazorDisplay\\Components\\Pages\\MyCloud.razor",
+              "RelativeToolTip": "BlazorDisplay\\Components\\Pages\\MyCloud.razor",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAoAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-21T09:19:22.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "E:\\c#\\Blazor\\Blzaor with Python\\BlazorDisplay\\BlazorDisplay\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "BlazorDisplay\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "E:\\c#\\Blazor\\Blzaor with Python\\BlazorDisplay\\BlazorDisplay\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "BlazorDisplay\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T14:10:29.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MainLayout.razor.css",
+              "DocumentMoniker": "E:\\c#\\Blazor\\Blzaor with Python\\BlazorDisplay\\BlazorDisplay\\Components\\Layout\\MainLayout.razor.css",
+              "RelativeDocumentMoniker": "BlazorDisplay\\Components\\Layout\\MainLayout.razor.css",
+              "ToolTip": "E:\\c#\\Blazor\\Blzaor with Python\\BlazorDisplay\\BlazorDisplay\\Components\\Layout\\MainLayout.razor.css",
+              "RelativeToolTip": "BlazorDisplay\\Components\\Layout\\MainLayout.razor.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-21T09:10:55.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "app.js",
+              "DocumentMoniker": "E:\\c#\\Blazor\\Blzaor with Python\\BlazorDisplay\\BlazorDisplay\\wwwroot\\app.js",
+              "RelativeDocumentMoniker": "BlazorDisplay\\wwwroot\\app.js",
+              "ToolTip": "E:\\c#\\Blazor\\Blzaor with Python\\BlazorDisplay\\BlazorDisplay\\wwwroot\\app.js",
+              "RelativeToolTip": "BlazorDisplay\\wwwroot\\app.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-20T15:21:42.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "app.css",
+              "DocumentMoniker": "E:\\c#\\Blazor\\Blzaor with Python\\BlazorDisplay\\BlazorDisplay\\wwwroot\\app.css",
+              "RelativeDocumentMoniker": "BlazorDisplay\\wwwroot\\app.css",
+              "ToolTip": "E:\\c#\\Blazor\\Blzaor with Python\\BlazorDisplay\\BlazorDisplay\\wwwroot\\app.css",
+              "RelativeToolTip": "BlazorDisplay\\wwwroot\\app.css",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAEEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-20T15:21:49.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Routes.razor",
+              "DocumentMoniker": "E:\\c#\\Blazor\\Blzaor with Python\\BlazorDisplay\\BlazorDisplay\\Components\\Routes.razor",
+              "RelativeDocumentMoniker": "BlazorDisplay\\Components\\Routes.razor",
+              "ToolTip": "E:\\c#\\Blazor\\Blzaor with Python\\BlazorDisplay\\BlazorDisplay\\Components\\Routes.razor",
+              "RelativeToolTip": "BlazorDisplay\\Components\\Routes.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-17T13:48:15.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "NavMenu.razor.css",
+              "DocumentMoniker": "E:\\c#\\Blazor\\Blzaor with Python\\BlazorDisplay\\BlazorDisplay\\Components\\Layout\\NavMenu.razor.css",
+              "RelativeDocumentMoniker": "BlazorDisplay\\Components\\Layout\\NavMenu.razor.css",
+              "ToolTip": "E:\\c#\\Blazor\\Blzaor with Python\\BlazorDisplay\\BlazorDisplay\\Components\\Layout\\NavMenu.razor.css",
+              "RelativeToolTip": "BlazorDisplay\\Components\\Layout\\NavMenu.razor.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-21T06:36:45.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EventDispatcher.cs",
+              "DocumentMoniker": "E:\\c#\\Blazor\\Blzaor with Python\\BlazorDisplay\\BlazorDisplay\\EventDispatcher.cs",
+              "RelativeDocumentMoniker": "BlazorDisplay\\EventDispatcher.cs",
+              "ToolTip": "E:\\c#\\Blazor\\Blzaor with Python\\BlazorDisplay\\BlazorDisplay\\EventDispatcher.cs",
+              "RelativeToolTip": "BlazorDisplay\\EventDispatcher.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T07:51:15.499Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+﻿@page "/my_tts"
+@implements IDisposable
+@inject IHttpClientFactory HttpClientFactory
+<div style="margin: 20px;">
+    <div style="border-radius: 10px; background-color: white; border: 5px solid #8058ff; padding: 20px;">
+        <br>
+        <br>
+        <textarea placeholder="请输入文本..."
+                  cols="100"
+                  rows="10"
+                  style="resize: none; border: none; width: 100%; border-radius: 5px; padding: 10px;"
+                  @bind="Value1">
+        </textarea>
+    </div>
+    <div style="rectangle;
+                position:relative;
+                top: -384px;
+                border-radius: 10px;
+                width: 20%;
+                height: 60px;
+                background-color:
+                #8058ff; color:
+                white; padding: 10px;
+                margin-top: 20px;">
+        <h2 style="position: relative; left: 50px;color: #F5F5DC;">输入框</h2>
+    </div>
+</div>
+
+<div style="margin: 20px;">
+    <h3>显示框</h3>
+    <p>Update: @Value1</p>
+</div>
+
+<button @onclick="StartTTS">提交文本</button>
+@if (!string.IsNullOrEmpty(AudioUrl))
+{
+    <audio controls>
+        <source src="@AudioUrl" type="audio/mpeg"/>
+    </audio>
+}
+<p>请求计数器: @AudioUrl</p>
+@code {
+    private string _Value1 = "";
+    private string AudioUrl = "";
+    private int requestCounter = 0; // 添加一个请求计数器
+    string Value1
+    {
+        get => _Value1;
+        set
+        {
+            if (_Value1 != value) // 仅在值变化时更新
+            {
+                _Value1 = value;
+                //EventDispatcher.Dispatch("ValueUpdated", _Value1); // 使用有效的事件名称
+            }
+        }
+    }
+
+    private async Task StartTTS()
+    {
+        // 清空 AudioUrl 以移除现有音频组件
+        AudioUrl = string.Empty;
+        var client = HttpClientFactory.CreateClient("app");
+        var response = await client.PostAsJsonAsync("/api/TTS", new { text = Value1 });
+        if (response.IsSuccessStatusCode)
+        {
+            requestCounter++; // 每次请求时增加计数器
+            AudioUrl = $"output.mp3?counter={requestCounter}"; // 使用计数器作为参数                              
+            System.Console.WriteLine(AudioUrl);// 处理成功情况
+        }
+        else
+        {
+            // 处理错误情况
+            AudioUrl = "";
+        }
+        StateHasChanged();
+    }
+    protected override void OnInitialized()
+    {
+        // EventDispatcher.AddAction("ValueUpdated", (value) =>
+        // {
+        //     if (value is string newValue)
+        //     {
+        //         _Value1 = newValue;
+        //         StateHasChanged(); // 更新 UI
+        //     }
+        // });
+
+        base.OnInitialized();
+    }
+
+    protected override void OnAfterRender(bool firstRender)
+    {
+        if (firstRender)
+        {
+            // 发送初始值
+            //EventDispatcher.Dispatch("ValueUpdated", _Value1); // 使用有效的事件名称
+        }
+        base.OnAfterRender(firstRender);
+    }
+
+    public void Dispose()
+    {
+        //EventDispatcher.RemoveAction("ValueUpdated"); // 使用有效的事件名称
+    }
+}

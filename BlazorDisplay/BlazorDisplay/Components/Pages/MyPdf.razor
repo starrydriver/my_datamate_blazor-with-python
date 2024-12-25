@@ -1,0 +1,110 @@
+﻿@page "/"
+@inject IHttpClientFactory HttpClientFactory
+@inject NavigationManager NavigationManager
+@inject IHostApplicationLifetime ApplicationLifetime
+@inject IWebHostEnvironment Environment
+<PageTitle>Home</PageTitle>
+
+<p>The result of adding 1 and 1 is: @result</p>
+<div class="my_border">
+    <h3>请上传你的 PDF 文件，我将会为您转为 Word 文件。</h3>
+    <InputFile class="my_button" style="width: 25%;" OnChange="HandleFileSelected" accept=".pdf" />
+    <button class="my_button" @onclick="ConvertFile">转换为 Word</button>
+    <button class="my_button" @onclick="DownloadFile">下载 Word 文件</button>
+    @if (selectedFile != null)
+    {
+        <p>已选择文件: @selectedFile.Name</p>
+    }
+</div>
+<HR>
+@if (!string.IsNullOrEmpty(uploadStatus))
+{
+    <p>@uploadStatus</p>
+    <PdfReader FileName=@pdfurl Height="500px" />
+}
+
+@code {
+    public int result;
+    private IBrowserFile selectedFile;
+    private string uploadStatus;
+    private string pdfurl;
+
+    protected override async Task OnInitializedAsync()
+    {
+        ApplicationLifetime.ApplicationStopping.Register(AppStopping);
+        var client = HttpClientFactory.CreateClient("app");
+        var response = await client.GetFromJsonAsync<Dictionary<string, int>>("api/add");
+        result = response["result"];
+    }
+    private void AppStopping()
+    {
+        var wwwrootPath = Path.Combine(Environment.ContentRootPath, "wwwroot");
+        var pdfFilePath = Path.Combine(wwwrootPath, selectedFile.Name);
+        var docxFilePath = Path.Combine(wwwrootPath, selectedFile.Name.Replace(".pdf", ".docx"));
+        if (File.Exists(pdfFilePath))
+        {
+            File.Delete(pdfFilePath);
+        }
+        if (File.Exists(docxFilePath))
+        {
+            File.Delete(docxFilePath);
+        }
+    }
+    private async Task DownloadFile()
+    {
+        var filename = selectedFile.Name.Replace(".pdf", ".docx"); // 要下载的文件后缀名
+        var url = $"/{filename}";
+        NavigationManager.NavigateTo(url, true);//导航到下载链接
+    }
+    private async Task HandleFileSelected(InputFileChangeEventArgs e)
+    {
+        selectedFile = e.GetMultipleFiles(1).FirstOrDefault();
+
+        if (selectedFile != null)
+        {
+            using var content = new MultipartFormDataContent();
+            using var stream = selectedFile.OpenReadStream(maxAllowedSize: 5 * 1024 * 1024); //5MB的限制
+            using var fileContent = new StreamContent(stream);
+            fileContent.Headers.ContentType = new MediaTypeHeaderValue("application/pdf");
+            content.Add(fileContent, "file", selectedFile.Name);
+
+            var client = HttpClientFactory.CreateClient("app");
+            var response1 = await client.PostAsync("api/upload", content);
+
+            if (response1.IsSuccessStatusCode)
+            {
+                uploadStatus = "文件上传成功！";
+                pdfurl = "/" + selectedFile.Name;
+                StateHasChanged(); // 更新 UI
+            }
+            else
+            {
+                var errorResponse = await response1.Content.ReadAsStringAsync();
+                uploadStatus = $"文件上传失败！错误信息: {errorResponse}";
+            }
+        }
+    }
+    private async Task ConvertFile()
+    {
+        if (selectedFile != null)
+        {
+            var client = HttpClientFactory.CreateClient("app");
+            var response = await client.PostAsJsonAsync("api/convert", new { filename = selectedFile.Name });
+
+            if (response.IsSuccessStatusCode)
+            {
+                var jsonResponse = await response.Content.ReadFromJsonAsync<Dictionary<string, string>>();
+                uploadStatus = $"文件转换成功！输出文件路径: {jsonResponse["output_file"]}";
+            }
+            else
+            {
+                var errorResponse = await response.Content.ReadAsStringAsync();
+                uploadStatus = $"文件转换失败！错误信息: {errorResponse}";
+            }
+        }
+        else
+        {
+            uploadStatus = "请先选择一个文件。";
+        }
+    }
+}

@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\c#\\Blazor\\Blzaor with Python\\BlazorDisplay\\BlazorDisplay\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorDisplay.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BlazorDisplay.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\c#\\Blazor\\Blzaor with Python\\BlazorDisplay\\BlazorDisplay\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "E:\\c#\\Blazor\\Blzaor with Python\\BlazorDisplay\\BlazorDisplay\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\c#\\Blazor\\Blzaor with Python\\BlazorDisplay\\BlazorDisplay\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\c#\\Blazor\\Blzaor with Python\\BlazorDisplay\\BlazorDisplay\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BlazorDisplay.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.BlazorDisplay.props",
+      "PackagePath": "build\\BlazorDisplay.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.BlazorDisplay.props",
+      "PackagePath": "buildMultiTargeting\\BlazorDisplay.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.BlazorDisplay.props",
+      "PackagePath": "buildTransitive\\BlazorDisplay.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
